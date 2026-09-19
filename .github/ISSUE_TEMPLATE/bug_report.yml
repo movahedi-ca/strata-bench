@@ -1,0 +1,22 @@
+name: Bug report
+description: Something wrong in the harness, gold, or corpus.
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Package version / commit
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction
+      placeholder: strata-bench evaluate ...

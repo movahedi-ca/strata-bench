@@ -1,0 +1,37 @@
+name: Evaluation run
+description: Report a STRATA-Bench score for a model / agent scaffold.
+title: "[eval] "
+labels: ["evaluation"]
+body:
+  - type: input
+    id: model
+    attributes:
+      label: Model
+      placeholder: e.g. claude-opus-4.1, gpt-5, gemini-2.5-pro
+    validations:
+      required: true
+  - type: input
+    id: scaffold
+    attributes:
+      label: Agent scaffold
+      placeholder: e.g. ReAct + local corpus tools, no web
+    validations:
+      required: true
+  - type: dropdown
+    id: track
+    attributes:
+      label: Track
+      options: [sandbox, live]
+    validations:
+      required: true
+  - type: input
+    id: score
+    attributes:
+      label: Headline score ( / 10 )
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Hard fails, protocol deviations, seed
+      placeholder: Paste strata-bench evaluate --format markdown output, or attach JSON.
