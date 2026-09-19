@@ -1,0 +1,42 @@
+name: Leaderboard badge
+
+# Keeps the shields.io endpoint badge in sync with data/public/leaderboard.json.
+# README renders it via:
+#   https://img.shields.io/endpoint?url=https://movahedi-ca.github.io/strata-bench/assets/badge.json
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/public/leaderboard.json"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  badge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Regenerate badge.json
+        run: |
+          python3 - <<'EOF'
+          import json
+          lb = json.load(open('data/public/leaderboard.json'))
+          n = len(lb['entries'])
+          badge = {
+              "schemaVersion": 1,
+              "label": "agents scored",
+              "message": str(n),
+              "color": "blue",
+          }
+          json.dump(badge, open('docs/assets/badge.json', 'w'))
+          print("agents scored:", n)
+          EOF
+      - name: Commit badge
+        run: |
+          git config user.name "Mohammad Movahedi"
+          git config user.email "m.h.movahedi97@gmail.com"
+          git add docs/assets/badge.json
+          git diff --cached --quiet || (git commit -m "Update leaderboard badge [skip ci]" && git push)

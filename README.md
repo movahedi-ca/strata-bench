@@ -14,6 +14,7 @@ A benchmark for AI agents that must compile longitudinal market intelligence fro
 [![License](https://img.shields.io/badge/license-Apache%202.0-0e1210)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10%2B-d4a574)](pyproject.toml)
 [![Version](https://img.shields.io/badge/version-1.1.0-6fbf9a)](CITATION.cff)
+[![Agents scored](https://img.shields.io/endpoint?url=https://movahedi-ca.github.io/strata-bench/assets/badge.json)](https://movahedi-ca.github.io/strata-bench/explorer.html)
 
 📖 **Docs:** <https://movahedi-ca.github.io/strata-bench/> · 🗂️ **Tasks:** [`data/public/tasks.json`](data/public/tasks.json) · 📜 **Protocol:** [`docs/protocol.md`](docs/protocol.md)
 
