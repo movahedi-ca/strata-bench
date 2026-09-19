@@ -2,6 +2,8 @@
 
 ![STRATA-Bench: layered glass strata of fragmented market data examined under a magnifying lens](docs/assets/hero.png)
 
+<video src="docs/assets/promo.mp4" controls muted playsinline width="100%"></video>
+
 **Spatial-Temporal Retrieval, Alignment, Transparency & Audit**
 
 A benchmark for AI agents that must compile longitudinal market intelligence from **fragmented, geographically nested, and temporally incomplete** evidence — without hallucinating downtown numbers, silently interpolating missing quarters, or plotting gaps as if they were data.
