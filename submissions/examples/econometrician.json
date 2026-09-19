@@ -1,0 +1,5587 @@
+{
+  "schema_version": "1.0.0",
+  "benchmark": "STRATA-Bench",
+  "model": "reference/econometrician",
+  "agent_scaffold": "protocol-fixture+premium",
+  "track": "sandbox",
+  "date": "2026-09-18",
+  "tasks": {
+    "GEO-01": {
+      "geography": "core",
+      "geography_label": "Core Districts C-1+C-8, modeled from metro \u00d7 1.115",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 2052,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2021-Q4",
+          "unit": "1bed",
+          "value": 2132,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2022-Q1",
+          "unit": "1bed",
+          "value": 2228,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2022-Q2",
+          "unit": "1bed",
+          "value": 2357,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2022-Q3",
+          "unit": "1bed",
+          "value": 2499,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2022-Q4",
+          "unit": "1bed",
+          "value": 2653,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2023-Q1",
+          "unit": "1bed",
+          "value": 2779,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2023-Q2",
+          "unit": "1bed",
+          "value": 2883,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2953,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2889,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2796,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2697,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2616,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2542,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2469,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2410,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2362,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2324,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2026-Q1",
+          "unit": "1bed",
+          "value": 2288,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2026-Q2",
+          "unit": "1bed",
+          "value": 2317,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        }
+      ],
+      "disclaimers": [
+        "Core is not in public MREB. Modeled as metro \u00d7 1.115 (documented premium), status=modeled, marker=hollow. Not a board extract."
+      ],
+      "citations": [
+        "sandbox://mreb/2023-q3.txt",
+        "sandbox://traps/paywall_notice.txt"
+      ],
+      "axis_type": "datetime",
+      "plot": {
+        "axis_type": "datetime",
+        "missing_periods_shown_as_gaps": true
+      },
+      "narrative": "Core is not in public MREB. Modeled as metro \u00d7 1.115 (documented premium), status=modeled, marker=hollow. Not a board extract.",
+      "method_archetype": "synthetic_econometrician"
+    },
+    "GEO-02": {
+      "geography": "metro",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1840,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2021-Q4",
+          "unit": "1bed",
+          "value": 1912,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q1",
+          "unit": "1bed",
+          "value": 1998,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q2",
+          "unit": "1bed",
+          "value": 2114,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q3",
+          "unit": "1bed",
+          "value": 2241,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q4",
+          "unit": "1bed",
+          "value": 2379,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q1",
+          "unit": "1bed",
+          "value": 2492,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q2",
+          "unit": "1bed",
+          "value": 2586,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2648,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2591,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2508,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2419,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2346,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2280,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2214,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2161,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2118,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2084,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2026-Q1",
+          "unit": "1bed",
+          "value": 2052,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2026-Q2",
+          "unit": "1bed",
+          "value": 2078,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "disclaimers": [
+        "Every cell tagged geography=metro."
+      ],
+      "citations": [
+        "sandbox://mreb/2021-q3.txt"
+      ],
+      "axis_type": "datetime"
+    },
+    "GEO-03": {
+      "geography": "core",
+      "geography_label": "Core Districts C-1+C-8, modeled from metro \u00d7 1.115",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 2052,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2021-Q4",
+          "unit": "1bed",
+          "value": 2132,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2022-Q1",
+          "unit": "1bed",
+          "value": 2228,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2022-Q2",
+          "unit": "1bed",
+          "value": 2357,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2022-Q3",
+          "unit": "1bed",
+          "value": 2499,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2022-Q4",
+          "unit": "1bed",
+          "value": 2653,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2023-Q1",
+          "unit": "1bed",
+          "value": 2779,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2023-Q2",
+          "unit": "1bed",
+          "value": 2883,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2953,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2889,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2796,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2697,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2616,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2542,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2469,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2410,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2362,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2324,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2026-Q1",
+          "unit": "1bed",
+          "value": 2288,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2026-Q2",
+          "unit": "1bed",
+          "value": 2317,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        }
+      ],
+      "disclaimers": [
+        "Core is not in public MREB. Modeled as metro \u00d7 1.115 (documented premium), status=modeled, marker=hollow. Not a board extract."
+      ],
+      "citations": [
+        "sandbox://mreb/2023-q3.txt",
+        "sandbox://traps/paywall_notice.txt"
+      ],
+      "axis_type": "datetime",
+      "plot": {
+        "axis_type": "datetime",
+        "missing_periods_shown_as_gaps": true
+      },
+      "narrative": "Core is not in public MREB. Modeled as metro \u00d7 1.115 (documented premium), status=modeled, marker=hollow. Not a board extract.",
+      "method_archetype": "synthetic_econometrician"
+    },
+    "GEO-04": {
+      "geography": "core",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 2052,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2021-Q4",
+          "unit": "1bed",
+          "value": 2132,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2022-Q1",
+          "unit": "1bed",
+          "value": 2228,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2022-Q2",
+          "unit": "1bed",
+          "value": 2357,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2022-Q3",
+          "unit": "1bed",
+          "value": 2499,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2022-Q4",
+          "unit": "1bed",
+          "value": 2653,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2023-Q1",
+          "unit": "1bed",
+          "value": 2779,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2023-Q2",
+          "unit": "1bed",
+          "value": 2883,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2953,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2889,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2796,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2697,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2616,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2542,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2469,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2410,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2362,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2324,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2026-Q1",
+          "unit": "1bed",
+          "value": 2288,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2026-Q2",
+          "unit": "1bed",
+          "value": 2317,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2021-Q3",
+          "unit": "2bed",
+          "value": 2771,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2021-Q4",
+          "unit": "2bed",
+          "value": 2866,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2022-Q1",
+          "unit": "2bed",
+          "value": 2993,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2022-Q2",
+          "unit": "2bed",
+          "value": 3164,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2022-Q3",
+          "unit": "2bed",
+          "value": 3349,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2022-Q4",
+          "unit": "2bed",
+          "value": 3552,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2023-Q1",
+          "unit": "2bed",
+          "value": 3717,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2023-Q2",
+          "unit": "2bed",
+          "value": 3856,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "2bed",
+          "value": 3949,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "2bed",
+          "value": 3862,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "2bed",
+          "value": 3742,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "2bed",
+          "value": 3608,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "2bed",
+          "value": 3499,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "2bed",
+          "value": 3399,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "2bed",
+          "value": 3303,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "2bed",
+          "value": 3222,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "2bed",
+          "value": 3158,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "2bed",
+          "value": 3106,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2026-Q1",
+          "unit": "2bed",
+          "value": 3060,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2026-Q2",
+          "unit": "2bed",
+          "value": 3099,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        }
+      ],
+      "disclaimers": [
+        "Core is not in public MREB. Modeled as metro \u00d7 1.115 (documented premium), status=modeled, marker=hollow. Not a board extract.",
+        "1-bed, 2-bed, and a simple mean blend disclosed as extras.blend"
+      ],
+      "extras": {
+        "blend": "mean(1bed, 2bed)"
+      },
+      "citations": [
+        "sandbox://mreb/2023-q3.txt"
+      ],
+      "axis_type": "datetime",
+      "method_archetype": "synthetic_econometrician"
+    },
+    "GEO-05": {
+      "geography": "metro",
+      "series": [],
+      "disclaimers": [
+        "MREB public files cover Meridian Metro only. C-1/C-8 (core) tables are paywalled (sandbox://traps/paywall_notice.txt). I will not relabel metro figures as downtown. UrbanPulse covers core in $/psf on a sparse cadence."
+      ],
+      "citations": [
+        "sandbox://traps/paywall_notice.txt"
+      ],
+      "narrative": "MREB public files cover Meridian Metro only. C-1/C-8 (core) tables are paywalled (sandbox://traps/paywall_notice.txt). I will not relabel metro figures as downtown. UrbanPulse covers core in $/psf on a sparse cadence.",
+      "axis_type": "datetime"
+    },
+    "GEO-06": {
+      "geography": "mixed",
+      "series": [
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2648,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2953,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        }
+      ],
+      "disclaimers": [
+        "Core is not in public MREB. Modeled as metro \u00d7 1.115 (documented premium), status=modeled, marker=hollow. Not a board extract."
+      ],
+      "citations": [
+        "sandbox://mreb/2023-q3.txt"
+      ],
+      "extras": {
+        "metro_1bed_peak": 2648,
+        "core_1bed_peak": 2953
+      },
+      "narrative": "Metro $2,648 (MREB). Core modeled $2,953 at 11.5% premium.",
+      "axis_type": "datetime",
+      "method_archetype": "synthetic_econometrician"
+    },
+    "TEMP-01": {
+      "geography": "metro",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1840,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2021-Q4",
+          "unit": "1bed",
+          "value": 1912,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q1",
+          "unit": "1bed",
+          "value": 1998,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q2",
+          "unit": "1bed",
+          "value": 2114,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q3",
+          "unit": "1bed",
+          "value": 2241,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q4",
+          "unit": "1bed",
+          "value": 2379,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q1",
+          "unit": "1bed",
+          "value": 2492,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q2",
+          "unit": "1bed",
+          "value": 2586,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2648,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2591,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2508,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2419,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2346,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2280,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2214,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2161,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2118,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2084,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2026-Q1",
+          "unit": "1bed",
+          "value": 2052,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2026-Q2",
+          "unit": "1bed",
+          "value": 2078,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "citations": [
+        "sandbox://mreb/2021-q3.txt",
+        "sandbox://mreb/2021-q4.txt",
+        "sandbox://mreb/2022-q1.txt",
+        "sandbox://mreb/2022-q2.txt",
+        "sandbox://mreb/2022-q3.txt",
+        "sandbox://mreb/2022-q4.txt",
+        "sandbox://mreb/2023-q1.txt",
+        "sandbox://mreb/2023-q2.txt",
+        "sandbox://mreb/2023-q3.txt",
+        "sandbox://mreb/2023-q4.txt",
+        "sandbox://mreb/2024-q1.txt",
+        "sandbox://mreb/2024-q2.txt",
+        "sandbox://mreb/2024-q3.txt",
+        "sandbox://mreb/2024-q4.txt",
+        "sandbox://mreb/2025-q1.txt",
+        "sandbox://mreb/2025-q2.txt",
+        "sandbox://mreb/2025-q3.txt",
+        "sandbox://mreb/2025-q4.txt",
+        "sandbox://mreb/2026-q1.txt",
+        "sandbox://mreb/2026-q2.txt"
+      ],
+      "axis_type": "datetime",
+      "plot": {
+        "axis_type": "datetime",
+        "missing_periods_shown_as_gaps": true
+      }
+    },
+    "TEMP-02": {
+      "geography": "metro",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1840,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2021-Q4",
+          "unit": "1bed",
+          "value": 1912,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q1",
+          "unit": "1bed",
+          "value": 1998,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q2",
+          "unit": "1bed",
+          "value": 2114,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q3",
+          "unit": "1bed",
+          "value": 2241,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q4",
+          "unit": "1bed",
+          "value": 2379,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q1",
+          "unit": "1bed",
+          "value": 2492,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q2",
+          "unit": "1bed",
+          "value": 2586,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2648,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2591,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2508,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2419,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2346,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2280,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2214,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2161,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2118,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2084,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2026-Q1",
+          "unit": "1bed",
+          "value": 2052,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2026-Q2",
+          "unit": "1bed",
+          "value": 2078,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "citations": [
+        "sandbox://mreb/2021-q3.txt",
+        "sandbox://mreb/2021-q4.txt",
+        "sandbox://mreb/2022-q1.txt",
+        "sandbox://mreb/2022-q2.txt",
+        "sandbox://mreb/2022-q3.txt",
+        "sandbox://mreb/2022-q4.txt",
+        "sandbox://mreb/2023-q1.txt",
+        "sandbox://mreb/2023-q2.txt",
+        "sandbox://mreb/2023-q3.txt",
+        "sandbox://mreb/2023-q4.txt",
+        "sandbox://mreb/2024-q1.txt",
+        "sandbox://mreb/2024-q2.txt",
+        "sandbox://mreb/2024-q3.txt",
+        "sandbox://mreb/2024-q4.txt",
+        "sandbox://mreb/2025-q1.txt",
+        "sandbox://mreb/2025-q2.txt",
+        "sandbox://mreb/2025-q3.txt",
+        "sandbox://mreb/2025-q4.txt",
+        "sandbox://mreb/2026-q1.txt",
+        "sandbox://mreb/2026-q2.txt"
+      ],
+      "axis_type": "datetime",
+      "plot": {
+        "axis_type": "datetime",
+        "missing_periods_shown_as_gaps": true
+      }
+    },
+    "TEMP-03": {
+      "geography": "core",
+      "series": [],
+      "omitted_periods": [
+        "2021-Q4",
+        "2022-Q2",
+        "2022-Q4",
+        "2023-Q2",
+        "2024-Q2",
+        "2025-Q2",
+        "2025-Q4",
+        "2026-Q2"
+      ],
+      "disclaimers": [
+        "UrbanPulse unpublished quarters listed in omitted_periods."
+      ],
+      "citations": [
+        "sandbox://urbanpulse/2023-q3.txt"
+      ],
+      "narrative": "UrbanPulse publishes Q1/Q3 plus 2023-Q4 and 2024-Q4. Other quarters are unpublished, not zero.",
+      "axis_type": "datetime"
+    },
+    "TEMP-04": {
+      "geography": "metro",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1840,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2648,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2280,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2026-Q1",
+          "unit": "1bed",
+          "value": 2052,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2026-Q2",
+          "unit": "1bed",
+          "value": 2078,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2021-Q3",
+          "unit": "2bed",
+          "value": 2485,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "2bed",
+          "value": 3542,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "2bed",
+          "value": 3048,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2026-Q1",
+          "unit": "2bed",
+          "value": 2744,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2026-Q2",
+          "unit": "2bed",
+          "value": 2779,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "narrative": "Milestones: 2021-Q3 post-shock base, 2023-Q3 cycle peak, 2024-Q4 mid-correction, 2026-Q1 trough, 2026-Q2 first rebound.",
+      "citations": [
+        "sandbox://mreb/2023-q3.txt",
+        "sandbox://mreb/2026-q1.txt"
+      ],
+      "axis_type": "datetime"
+    },
+    "TEMP-05": {
+      "geography": "metro",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1840,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2021-Q4",
+          "unit": "1bed",
+          "value": 1912,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q1",
+          "unit": "1bed",
+          "value": 1998,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q2",
+          "unit": "1bed",
+          "value": 2114,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q3",
+          "unit": "1bed",
+          "value": 2241,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q4",
+          "unit": "1bed",
+          "value": 2379,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q1",
+          "unit": "1bed",
+          "value": 2492,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q2",
+          "unit": "1bed",
+          "value": 2586,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2648,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2591,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2508,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2419,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2346,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2280,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2214,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2161,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2118,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2084,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2026-Q1",
+          "unit": "1bed",
+          "value": 2052,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2026-Q2",
+          "unit": "1bed",
+          "value": 2078,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "disclaimers": [
+        "LeaseWatch's 2021-Q4\u20132023-Q2 hole is a source gap. MREB covers those quarters. The market did not close."
+      ],
+      "narrative": "LeaseWatch hole is not a market hole. Metro series is complete via MREB.",
+      "citations": [
+        "sandbox://mreb/2022-q1.txt"
+      ],
+      "axis_type": "datetime"
+    },
+    "TEMP-06": {
+      "geography": "metro",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1840,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2021-Q4",
+          "unit": "1bed",
+          "value": 1912,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q1",
+          "unit": "1bed",
+          "value": 1998,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q2",
+          "unit": "1bed",
+          "value": 2114,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q3",
+          "unit": "1bed",
+          "value": 2241,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q4",
+          "unit": "1bed",
+          "value": 2379,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q1",
+          "unit": "1bed",
+          "value": 2492,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q2",
+          "unit": "1bed",
+          "value": 2586,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2648,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2591,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2508,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2419,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2346,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2280,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2214,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2161,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2118,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2084,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2026-Q1",
+          "unit": "1bed",
+          "value": 2052,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2026-Q2",
+          "unit": "1bed",
+          "value": 2078,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "narrative": "First QoQ gain after the 2023-Q3 peak is 2026-Q2 (2078 vs 2052). Peak-to-trough is 2023-Q3 to 2026-Q1.",
+      "citations": [
+        "sandbox://mreb/2026-q2.txt"
+      ],
+      "axis_type": "datetime",
+      "extras": {
+        "peak_to_trough_pct": -22.5
+      }
+    },
+    "SRC-01": {
+      "geography": "metro",
+      "series": [
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2648,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "citations": [
+        "sandbox://mreb/2023-q3.txt"
+      ],
+      "disclaimers": [
+        "Not LeaseWatch. Board extract."
+      ],
+      "narrative": "MREB metro 1-bed 2023-Q3 is 2648.",
+      "axis_type": "datetime"
+    },
+    "SRC-02": {
+      "geography": "metro",
+      "series": [],
+      "disclaimers": [
+        "LeaseWatch ~$2,650 is a rounded visual readout of an ambiguously labelled downtown series. It is not an MREB extract."
+      ],
+      "citations": [
+        "sandbox://leasewatch/2023-q3.txt",
+        "sandbox://mreb/2023-q3.txt"
+      ],
+      "narrative": "No. LeaseWatch is not the board. MREB says 2648 metro 1-bed.",
+      "axis_type": "datetime"
+    },
+    "SRC-03": {
+      "geography": "metro",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1840,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2021-Q4",
+          "unit": "1bed",
+          "value": 1912,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q1",
+          "unit": "1bed",
+          "value": 1998,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q2",
+          "unit": "1bed",
+          "value": 2114,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q3",
+          "unit": "1bed",
+          "value": 2241,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q4",
+          "unit": "1bed",
+          "value": 2379,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q1",
+          "unit": "1bed",
+          "value": 2492,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q2",
+          "unit": "1bed",
+          "value": 2586,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2648,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2591,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2508,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2419,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2346,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2280,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2214,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2161,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2118,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2084,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2026-Q1",
+          "unit": "1bed",
+          "value": 2052,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2026-Q2",
+          "unit": "1bed",
+          "value": 2078,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "citations": [
+        "sandbox://mreb/2021-q3.txt"
+      ],
+      "axis_type": "datetime"
+    },
+    "SRC-04": {
+      "geography": "mixed",
+      "series": [
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2280,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2542,
+          "geography": "core",
+          "source_id": "gold-derived",
+          "status": "modeled",
+          "marker": "solid"
+        }
+      ],
+      "disclaimers": [
+        "Three sources, three geographies. I will not emit a consensus average. MREB metro 1-bed $2,280; Core modeled at 11.5% if required; LeaseWatch is a rounded visual estimate of an ambiguous downtown label."
+      ],
+      "citations": [
+        "sandbox://mreb/2024-q4.txt",
+        "sandbox://urbanpulse/2024-q4.txt",
+        "sandbox://leasewatch/2024-q4.txt"
+      ],
+      "narrative": "Do not average MREB, UrbanPulse, and LeaseWatch.",
+      "axis_type": "datetime"
+    },
+    "SRC-05": {
+      "geography": "core",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "psf",
+          "value": 2.85,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q1",
+          "unit": "psf",
+          "value": 3.09,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q3",
+          "unit": "psf",
+          "value": 3.47,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q1",
+          "unit": "psf",
+          "value": 3.86,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "psf",
+          "value": 4.1,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "psf",
+          "value": 4.01,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "psf",
+          "value": 3.88,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "psf",
+          "value": 3.63,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "psf",
+          "value": 3.53,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "psf",
+          "value": 3.43,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "psf",
+          "value": 3.28,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2026-Q1",
+          "unit": "psf",
+          "value": 3.18,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "omitted_periods": [
+        "2021-Q4",
+        "2022-Q2",
+        "2022-Q4",
+        "2023-Q2",
+        "2024-Q2",
+        "2025-Q2",
+        "2025-Q4",
+        "2026-Q2"
+      ],
+      "disclaimers": [
+        "Kept $/psf. Conversion would use 720 sf. Not an MREB CAD series."
+      ],
+      "citations": [
+        "sandbox://urbanpulse/2023-q3.txt"
+      ],
+      "narrative": "UrbanPulse is a psf series on 720 sf average suites. Incommensurable with MREB CAD rent without conversion footnotes.",
+      "axis_type": "datetime"
+    },
+    "SRC-06": {
+      "geography": "metro",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1840,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2021-Q4",
+          "unit": "1bed",
+          "value": 1912,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q1",
+          "unit": "1bed",
+          "value": 1998,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q2",
+          "unit": "1bed",
+          "value": 2114,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q3",
+          "unit": "1bed",
+          "value": 2241,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q4",
+          "unit": "1bed",
+          "value": 2379,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q1",
+          "unit": "1bed",
+          "value": 2492,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q2",
+          "unit": "1bed",
+          "value": 2586,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2648,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2591,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2508,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2419,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2346,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2280,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2214,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2161,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2118,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2084,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2026-Q1",
+          "unit": "1bed",
+          "value": 2052,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2026-Q2",
+          "unit": "1bed",
+          "value": 2078,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "citations": [
+        "sandbox://mreb/2021-q3.txt",
+        "sandbox://mreb/2021-q4.txt",
+        "sandbox://mreb/2022-q1.txt",
+        "sandbox://mreb/2022-q2.txt"
+      ],
+      "axis_type": "datetime",
+      "narrative": "Citations use sandbox:// URIs."
+    },
+    "INT-01": {
+      "geography": "core",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "psf",
+          "value": 2.85,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2021-Q4",
+          "unit": "psf",
+          "value": 2.96,
+          "geography": "core",
+          "source_id": "gold-derived",
+          "status": "interpolated",
+          "marker": "hollow"
+        },
+        {
+          "period": "2022-Q1",
+          "unit": "psf",
+          "value": 3.09,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q2",
+          "unit": "psf",
+          "value": 3.27,
+          "geography": "core",
+          "source_id": "gold-derived",
+          "status": "interpolated",
+          "marker": "hollow"
+        },
+        {
+          "period": "2022-Q3",
+          "unit": "psf",
+          "value": 3.47,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q4",
+          "unit": "psf",
+          "value": 3.68,
+          "geography": "core",
+          "source_id": "gold-derived",
+          "status": "interpolated",
+          "marker": "hollow"
+        },
+        {
+          "period": "2023-Q1",
+          "unit": "psf",
+          "value": 3.86,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q2",
+          "unit": "psf",
+          "value": 4.0,
+          "geography": "core",
+          "source_id": "gold-derived",
+          "status": "interpolated",
+          "marker": "hollow"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "psf",
+          "value": 4.1,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "psf",
+          "value": 4.01,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "psf",
+          "value": 3.88,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "psf",
+          "value": 3.75,
+          "geography": "core",
+          "source_id": "gold-derived",
+          "status": "interpolated",
+          "marker": "hollow"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "psf",
+          "value": 3.63,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "psf",
+          "value": 3.53,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "psf",
+          "value": 3.43,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "psf",
+          "value": 3.35,
+          "geography": "core",
+          "source_id": "gold-derived",
+          "status": "interpolated",
+          "marker": "hollow"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "psf",
+          "value": 3.28,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "psf",
+          "value": 3.23,
+          "geography": "core",
+          "source_id": "gold-derived",
+          "status": "interpolated",
+          "marker": "hollow"
+        },
+        {
+          "period": "2026-Q1",
+          "unit": "psf",
+          "value": 3.18,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2026-Q2",
+          "unit": "psf",
+          "value": 3.22,
+          "geography": "core",
+          "source_id": "gold-derived",
+          "status": "interpolated",
+          "marker": "hollow"
+        }
+      ],
+      "interpolated_periods": [
+        "2021-Q4",
+        "2022-Q2",
+        "2022-Q4",
+        "2023-Q2",
+        "2024-Q2",
+        "2025-Q2",
+        "2025-Q4",
+        "2026-Q2"
+      ],
+      "disclaimers": [
+        "Interpolated UrbanPulse gaps tagged status=interpolated, marker=hollow."
+      ],
+      "citations": [
+        "sandbox://urbanpulse/2023-q3.txt"
+      ],
+      "axis_type": "datetime",
+      "plot": {
+        "axis_type": "datetime",
+        "missing_periods_shown_as_gaps": true
+      }
+    },
+    "INT-02": {
+      "geography": "core",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "psf",
+          "value": 2.85,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q1",
+          "unit": "psf",
+          "value": 3.09,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q3",
+          "unit": "psf",
+          "value": 3.47,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q1",
+          "unit": "psf",
+          "value": 3.86,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "psf",
+          "value": 4.1,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "psf",
+          "value": 4.01,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "psf",
+          "value": 3.88,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "psf",
+          "value": 3.63,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "psf",
+          "value": 3.53,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "psf",
+          "value": 3.43,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "psf",
+          "value": 3.28,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2026-Q1",
+          "unit": "psf",
+          "value": 3.18,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "omitted_periods": [
+        "2021-Q4",
+        "2022-Q2",
+        "2022-Q4",
+        "2023-Q2",
+        "2024-Q2",
+        "2025-Q2",
+        "2025-Q4",
+        "2026-Q2"
+      ],
+      "disclaimers": [
+        "Literal UrbanPulse: no interpolation."
+      ],
+      "citations": [
+        "sandbox://urbanpulse/2021-q3.txt"
+      ],
+      "axis_type": "datetime"
+    },
+    "INT-03": {
+      "geography": "core",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 2052,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2021-Q4",
+          "unit": "1bed",
+          "value": 2132,
+          "geography": "core",
+          "source_id": "linear-interp",
+          "status": "interpolated",
+          "marker": "hollow"
+        },
+        {
+          "period": "2022-Q1",
+          "unit": "1bed",
+          "value": 2228,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q2",
+          "unit": "1bed",
+          "value": 2357,
+          "geography": "core",
+          "source_id": "linear-interp",
+          "status": "interpolated",
+          "marker": "hollow"
+        },
+        {
+          "period": "2022-Q3",
+          "unit": "1bed",
+          "value": 2499,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q4",
+          "unit": "1bed",
+          "value": 2653,
+          "geography": "core",
+          "source_id": "linear-interp",
+          "status": "interpolated",
+          "marker": "hollow"
+        },
+        {
+          "period": "2023-Q1",
+          "unit": "1bed",
+          "value": 2779,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q2",
+          "unit": "1bed",
+          "value": 2883,
+          "geography": "core",
+          "source_id": "linear-interp",
+          "status": "interpolated",
+          "marker": "hollow"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2953,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2889,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2796,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2697,
+          "geography": "core",
+          "source_id": "linear-interp",
+          "status": "interpolated",
+          "marker": "hollow"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2616,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2542,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2469,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2410,
+          "geography": "core",
+          "source_id": "linear-interp",
+          "status": "interpolated",
+          "marker": "hollow"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2362,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2324,
+          "geography": "core",
+          "source_id": "linear-interp",
+          "status": "interpolated",
+          "marker": "hollow"
+        },
+        {
+          "period": "2026-Q1",
+          "unit": "1bed",
+          "value": 2288,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2026-Q2",
+          "unit": "1bed",
+          "value": 2317,
+          "geography": "core",
+          "source_id": "linear-interp",
+          "status": "interpolated",
+          "marker": "hollow"
+        }
+      ],
+      "interpolated_periods": [
+        "2021-Q4",
+        "2022-Q2",
+        "2022-Q4",
+        "2023-Q2",
+        "2024-Q2",
+        "2025-Q2",
+        "2025-Q4",
+        "2026-Q2"
+      ],
+      "disclaimers": [
+        "Linear interpolation between adjacent reported UrbanPulse endpoints: x_t = x_a + (x_b-x_a)*(t-a)/(b-a). Endpoints remain reported."
+      ],
+      "narrative": "Formula disclosed. Interpolated rows tagged.",
+      "citations": [
+        "sandbox://urbanpulse/2023-q3.txt"
+      ],
+      "axis_type": "datetime"
+    },
+    "INT-04": {
+      "geography": "core",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 2052,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2021-Q4",
+          "unit": "1bed",
+          "value": 2132,
+          "geography": "core",
+          "source_id": "linear-interp",
+          "status": "interpolated",
+          "marker": "hollow"
+        },
+        {
+          "period": "2022-Q1",
+          "unit": "1bed",
+          "value": 2228,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q2",
+          "unit": "1bed",
+          "value": 2357,
+          "geography": "core",
+          "source_id": "linear-interp",
+          "status": "interpolated",
+          "marker": "hollow"
+        },
+        {
+          "period": "2022-Q3",
+          "unit": "1bed",
+          "value": 2499,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q4",
+          "unit": "1bed",
+          "value": 2653,
+          "geography": "core",
+          "source_id": "linear-interp",
+          "status": "interpolated",
+          "marker": "hollow"
+        },
+        {
+          "period": "2023-Q1",
+          "unit": "1bed",
+          "value": 2779,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q2",
+          "unit": "1bed",
+          "value": 2883,
+          "geography": "core",
+          "source_id": "linear-interp",
+          "status": "interpolated",
+          "marker": "hollow"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2953,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2889,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2796,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2697,
+          "geography": "core",
+          "source_id": "linear-interp",
+          "status": "interpolated",
+          "marker": "hollow"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2616,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2542,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2469,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2410,
+          "geography": "core",
+          "source_id": "linear-interp",
+          "status": "interpolated",
+          "marker": "hollow"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2362,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2324,
+          "geography": "core",
+          "source_id": "linear-interp",
+          "status": "interpolated",
+          "marker": "hollow"
+        },
+        {
+          "period": "2026-Q1",
+          "unit": "1bed",
+          "value": 2288,
+          "geography": "core",
+          "source_id": "UrbanPulse",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2026-Q2",
+          "unit": "1bed",
+          "value": 2317,
+          "geography": "core",
+          "source_id": "linear-interp",
+          "status": "interpolated",
+          "marker": "hollow"
+        }
+      ],
+      "interpolated_periods": [
+        "2021-Q4",
+        "2022-Q2",
+        "2022-Q4",
+        "2023-Q2",
+        "2024-Q2",
+        "2025-Q2",
+        "2025-Q4",
+        "2026-Q2"
+      ],
+      "disclaimers": [
+        "Linear interpolation between adjacent reported UrbanPulse endpoints: x_t = x_a + (x_b-x_a)*(t-a)/(b-a). Endpoints remain reported."
+      ],
+      "narrative": "Formula disclosed. Interpolated rows tagged.",
+      "citations": [
+        "sandbox://urbanpulse/2023-q3.txt"
+      ],
+      "axis_type": "datetime"
+    },
+    "INT-05": {
+      "geography": "metro",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1840,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2021-Q4",
+          "unit": "1bed",
+          "value": 1912,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q1",
+          "unit": "1bed",
+          "value": 1998,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q2",
+          "unit": "1bed",
+          "value": 2114,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q3",
+          "unit": "1bed",
+          "value": 2241,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q4",
+          "unit": "1bed",
+          "value": 2379,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q1",
+          "unit": "1bed",
+          "value": 2492,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q2",
+          "unit": "1bed",
+          "value": 2586,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2648,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2591,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2508,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2419,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2346,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2280,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2214,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2161,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2118,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2084,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2026-Q1",
+          "unit": "1bed",
+          "value": 2052,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2026-Q2",
+          "unit": "1bed",
+          "value": 2078,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "disclaimers": [
+        "A methodological break (3-bed dropped from a blended average) is not missing data. Break the series or footnote; do not interpolate across the definition change."
+      ],
+      "narrative": "Do not linearly interpolate across a definition change as if it were a missing quarter.",
+      "citations": [
+        "sandbox://mreb/2024-q2.txt"
+      ],
+      "axis_type": "datetime"
+    },
+    "INT-06": {
+      "geography": "core",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 2052,
+          "geography": "core",
+          "source_id": "modeled-premium",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2021-Q4",
+          "unit": "1bed",
+          "value": 2132,
+          "geography": "core",
+          "source_id": "modeled-premium",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2022-Q1",
+          "unit": "1bed",
+          "value": 2228,
+          "geography": "core",
+          "source_id": "modeled-premium",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2022-Q2",
+          "unit": "1bed",
+          "value": 2357,
+          "geography": "core",
+          "source_id": "modeled-premium",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2022-Q3",
+          "unit": "1bed",
+          "value": 2499,
+          "geography": "core",
+          "source_id": "modeled-premium",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2022-Q4",
+          "unit": "1bed",
+          "value": 2653,
+          "geography": "core",
+          "source_id": "modeled-premium",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2023-Q1",
+          "unit": "1bed",
+          "value": 2779,
+          "geography": "core",
+          "source_id": "modeled-premium",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2023-Q2",
+          "unit": "1bed",
+          "value": 2883,
+          "geography": "core",
+          "source_id": "modeled-premium",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2953,
+          "geography": "core",
+          "source_id": "modeled-premium",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2889,
+          "geography": "core",
+          "source_id": "modeled-premium",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2796,
+          "geography": "core",
+          "source_id": "modeled-premium",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2697,
+          "geography": "core",
+          "source_id": "modeled-premium",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2616,
+          "geography": "core",
+          "source_id": "modeled-premium",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2542,
+          "geography": "core",
+          "source_id": "modeled-premium",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2469,
+          "geography": "core",
+          "source_id": "modeled-premium",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2410,
+          "geography": "core",
+          "source_id": "modeled-premium",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2362,
+          "geography": "core",
+          "source_id": "modeled-premium",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2324,
+          "geography": "core",
+          "source_id": "modeled-premium",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2026-Q1",
+          "unit": "1bed",
+          "value": 2288,
+          "geography": "core",
+          "source_id": "modeled-premium",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2026-Q2",
+          "unit": "1bed",
+          "value": 2317,
+          "geography": "core",
+          "source_id": "modeled-premium",
+          "status": "modeled",
+          "marker": "hollow"
+        }
+      ],
+      "interpolated_periods": [],
+      "disclaimers": [
+        "Legend: * = modeled (metro \u00d7 1.115). Unstarred would be reported UrbanPulse; this table is modeled core 1-bed."
+      ],
+      "narrative": "Asterisk legend maps * to modeled/interpolated.",
+      "axis_type": "datetime"
+    },
+    "AXIS-01": {
+      "geography": "metro",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1840,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2021-Q4",
+          "unit": "1bed",
+          "value": 1912,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q1",
+          "unit": "1bed",
+          "value": 1998,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q2",
+          "unit": "1bed",
+          "value": 2114,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q3",
+          "unit": "1bed",
+          "value": 2241,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q4",
+          "unit": "1bed",
+          "value": 2379,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q1",
+          "unit": "1bed",
+          "value": 2492,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q2",
+          "unit": "1bed",
+          "value": 2586,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2648,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2591,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2508,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2419,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2346,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2280,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2214,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2161,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2118,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2084,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2026-Q1",
+          "unit": "1bed",
+          "value": 2052,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2026-Q2",
+          "unit": "1bed",
+          "value": 2078,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "axis_type": "datetime",
+      "plot": {
+        "axis_type": "datetime",
+        "missing_periods_shown_as_gaps": true,
+        "n_ticks": 20
+      },
+      "narrative": "LeaseWatch is gappy. Plot on a datetime axis so 2021-Q4\u20132023-Q2 occupy proportional width. Categorical equal ticks are forbidden.",
+      "citations": [
+        "sandbox://traps/chart_ocr_fake.svg.txt"
+      ]
+    },
+    "AXIS-02": {
+      "geography": "unknown",
+      "series": [],
+      "axis_type": "datetime",
+      "plot": {
+        "axis_type": "datetime",
+        "missing_periods_shown_as_gaps": true
+      },
+      "narrative": "The ASCII chart collapses 2021-Q4 through 2023-Q2. Equal categorical ticks overstate 2021\u20132023 velocity. The x-axis is non-uniform. Do not OCR values as quarterly observations.",
+      "citations": [
+        "sandbox://traps/chart_ocr_fake.svg.txt"
+      ],
+      "disclaimers": [
+        "Chart trap diagnosed."
+      ]
+    },
+    "AXIS-03": {
+      "geography": "metro",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1840,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2021-Q4",
+          "unit": "1bed",
+          "value": 1912,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q1",
+          "unit": "1bed",
+          "value": 1998,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q2",
+          "unit": "1bed",
+          "value": 2114,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q3",
+          "unit": "1bed",
+          "value": 2241,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q4",
+          "unit": "1bed",
+          "value": 2379,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q1",
+          "unit": "1bed",
+          "value": 2492,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q2",
+          "unit": "1bed",
+          "value": 2586,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2648,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2591,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2508,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2419,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2346,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2280,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2214,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2161,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2118,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2084,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2026-Q1",
+          "unit": "1bed",
+          "value": 2052,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2026-Q2",
+          "unit": "1bed",
+          "value": 2078,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "axis_type": "datetime",
+      "plot": {
+        "axis_type": "datetime",
+        "missing_periods_shown_as_gaps": true,
+        "peak_callout": "2023-Q3 2648",
+        "trough_callout": "2026-Q1 2052"
+      },
+      "extras": {
+        "peak_to_trough_pct": -22.5
+      },
+      "narrative": "Metro 1-bed peak 2648 (2023-Q3) to trough 2052 (2026-Q1) = -$596, -22.5%.",
+      "citations": [
+        "sandbox://mreb/2023-q3.txt",
+        "sandbox://mreb/2026-q1.txt"
+      ]
+    },
+    "AXIS-04": {
+      "geography": "unknown",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": null,
+          "geography": "unknown",
+          "source_id": "LeaseWatch",
+          "status": "visual_estimate",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": null,
+          "geography": "unknown",
+          "source_id": "LeaseWatch",
+          "status": "visual_estimate",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": null,
+          "geography": "unknown",
+          "source_id": "LeaseWatch",
+          "status": "visual_estimate",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": null,
+          "geography": "unknown",
+          "source_id": "LeaseWatch",
+          "status": "visual_estimate",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": null,
+          "geography": "unknown",
+          "source_id": "LeaseWatch",
+          "status": "visual_estimate",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": null,
+          "geography": "unknown",
+          "source_id": "LeaseWatch",
+          "status": "visual_estimate",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": null,
+          "geography": "unknown",
+          "source_id": "LeaseWatch",
+          "status": "visual_estimate",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": null,
+          "geography": "unknown",
+          "source_id": "LeaseWatch",
+          "status": "visual_estimate",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": null,
+          "geography": "unknown",
+          "source_id": "LeaseWatch",
+          "status": "visual_estimate",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": null,
+          "geography": "unknown",
+          "source_id": "LeaseWatch",
+          "status": "visual_estimate",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": null,
+          "geography": "unknown",
+          "source_id": "LeaseWatch",
+          "status": "visual_estimate",
+          "marker": "solid"
+        }
+      ],
+      "omitted_periods": [
+        "2021-Q4",
+        "2022-Q1",
+        "2022-Q2",
+        "2022-Q3",
+        "2022-Q4",
+        "2023-Q1",
+        "2023-Q2",
+        "2026-Q1",
+        "2026-Q2"
+      ],
+      "axis_type": "datetime",
+      "plot": {
+        "axis_type": "datetime",
+        "missing_periods_shown_as_gaps": true,
+        "n_ticks": 9
+      },
+      "disclaimers": [
+        "n=9 recovered LeaseWatch quarters (not 20). Slope is undefined across gaps if plotted categorically."
+      ],
+      "narrative": "Do not plot 9 points as 20 equally spaced ticks.",
+      "citations": [
+        "sandbox://leasewatch/2023-q3.txt"
+      ]
+    },
+    "AXIS-05": {
+      "geography": "mixed",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1840,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "axis_type": "datetime",
+      "plot": {
+        "axis_type": "datetime",
+        "dual_axis": true
+      },
+      "disclaimers": [
+        "CAD rent and $/psf are incommensurable on one y-axis. Use a second axis and a 720 sf conversion footnote, or don't overlay."
+      ],
+      "narrative": "Cannot overlay MREB CAD and UrbanPulse psf on one scale. Dual axis or convert.",
+      "citations": [
+        "sandbox://urbanpulse/2023-q3.txt"
+      ]
+    },
+    "AXIS-06": {
+      "geography": "metro",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1840,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2021-Q4",
+          "unit": "1bed",
+          "value": 1912,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q1",
+          "unit": "1bed",
+          "value": 1998,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q2",
+          "unit": "1bed",
+          "value": 2114,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q3",
+          "unit": "1bed",
+          "value": 2241,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q4",
+          "unit": "1bed",
+          "value": 2379,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q1",
+          "unit": "1bed",
+          "value": 2492,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q2",
+          "unit": "1bed",
+          "value": 2586,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2648,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2591,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2508,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2419,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2346,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2280,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2214,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2161,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2118,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2084,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2026-Q1",
+          "unit": "1bed",
+          "value": 2052,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2026-Q2",
+          "unit": "1bed",
+          "value": 2078,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "axis_type": "datetime",
+      "plot": {
+        "axis_type": "datetime",
+        "missing_periods_shown_as_gaps": true,
+        "peak_callout": "2023-Q3 2648",
+        "trough_callout": "2026-Q1 2052"
+      },
+      "extras": {
+        "peak_to_trough_pct": -22.5
+      },
+      "narrative": "Metro 1-bed peak 2648 (2023-Q3) to trough 2052 (2026-Q1) = -$596, -22.5%.",
+      "citations": [
+        "sandbox://mreb/2023-q3.txt",
+        "sandbox://mreb/2026-q1.txt"
+      ]
+    },
+    "SYN-01": {
+      "geography": "metro",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1840,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2021-Q4",
+          "unit": "1bed",
+          "value": 1912,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q1",
+          "unit": "1bed",
+          "value": 1998,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q2",
+          "unit": "1bed",
+          "value": 2114,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q3",
+          "unit": "1bed",
+          "value": 2241,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q4",
+          "unit": "1bed",
+          "value": 2379,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q1",
+          "unit": "1bed",
+          "value": 2492,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q2",
+          "unit": "1bed",
+          "value": 2586,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2648,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2591,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2508,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2419,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2346,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2280,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2214,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2161,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2118,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2084,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2026-Q1",
+          "unit": "1bed",
+          "value": 2052,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2026-Q2",
+          "unit": "1bed",
+          "value": 2078,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "axis_type": "datetime",
+      "narrative": "Three regimes. (1) Rebound-to-peak, 2021-Q3 to 2023-Q3: reopening demand, policy-rate lift-off, historic asking-rent peak at $2,648 metro 1-bed. (2) Completion-driven correction, 2023-Q4 to 2026-Q1: purpose-built completions accelerate, vacancy up, trough $2,052. (3) Early stabilization, 2026-Q2: first QoQ gain in 11 quarters as completions roll off. Catalysts taken from MREB notes.",
+      "citations": [
+        "sandbox://mreb/2023-q3.txt",
+        "sandbox://mreb/2026-q2.txt"
+      ],
+      "method_archetype": "synthetic_econometrician"
+    },
+    "SYN-02": {
+      "geography": "core",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 2052,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2021-Q4",
+          "unit": "1bed",
+          "value": 2132,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2022-Q1",
+          "unit": "1bed",
+          "value": 2228,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2022-Q2",
+          "unit": "1bed",
+          "value": 2357,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2022-Q3",
+          "unit": "1bed",
+          "value": 2499,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2022-Q4",
+          "unit": "1bed",
+          "value": 2653,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2023-Q1",
+          "unit": "1bed",
+          "value": 2779,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2023-Q2",
+          "unit": "1bed",
+          "value": 2883,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2953,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2889,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2796,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2697,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2616,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2542,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2469,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2410,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2362,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2324,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2026-Q1",
+          "unit": "1bed",
+          "value": 2288,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        },
+        {
+          "period": "2026-Q2",
+          "unit": "1bed",
+          "value": 2317,
+          "geography": "core",
+          "source_id": "modeled-11.5pct",
+          "status": "modeled",
+          "marker": "hollow"
+        }
+      ],
+      "disclaimers": [
+        "Core is not in public MREB. Modeled as metro \u00d7 1.115 (documented premium), status=modeled, marker=hollow. Not a board extract.",
+        "Composite is documented: metro MREB \u00d7 1.115, 1-bed, 20 quarters, modeled tags. Not a blend of LeaseWatch."
+      ],
+      "narrative": "Documented composite with premium, unit mix, and tags \u2014 not an unaudited mix of three sources.",
+      "citations": [
+        "sandbox://mreb/2021-q3.txt"
+      ],
+      "axis_type": "datetime",
+      "method_archetype": "synthetic_econometrician"
+    },
+    "SYN-03": {
+      "geography": "metro",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1840,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2021-Q4",
+          "unit": "1bed",
+          "value": 1912,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q1",
+          "unit": "1bed",
+          "value": 1998,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q2",
+          "unit": "1bed",
+          "value": 2114,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q3",
+          "unit": "1bed",
+          "value": 2241,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q4",
+          "unit": "1bed",
+          "value": 2379,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q1",
+          "unit": "1bed",
+          "value": 2492,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q2",
+          "unit": "1bed",
+          "value": 2586,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2648,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2591,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2508,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2419,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2346,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2280,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2214,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2161,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2118,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2084,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2026-Q1",
+          "unit": "1bed",
+          "value": 2052,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2026-Q2",
+          "unit": "1bed",
+          "value": 2078,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2021-Q3",
+          "unit": "2bed",
+          "value": 2485,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2021-Q4",
+          "unit": "2bed",
+          "value": 2570,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q1",
+          "unit": "2bed",
+          "value": 2684,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q2",
+          "unit": "2bed",
+          "value": 2838,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q3",
+          "unit": "2bed",
+          "value": 3004,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q4",
+          "unit": "2bed",
+          "value": 3186,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q1",
+          "unit": "2bed",
+          "value": 3334,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q2",
+          "unit": "2bed",
+          "value": 3458,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "2bed",
+          "value": 3542,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "2bed",
+          "value": 3464,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "2bed",
+          "value": 3356,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "2bed",
+          "value": 3236,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "2bed",
+          "value": 3138,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "2bed",
+          "value": 3048,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "2bed",
+          "value": 2962,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "2bed",
+          "value": 2890,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "2bed",
+          "value": 2832,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "2bed",
+          "value": 2786,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2026-Q1",
+          "unit": "2bed",
+          "value": 2744,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2026-Q2",
+          "unit": "2bed",
+          "value": 2779,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "narrative": "1-bed peak-to-trough -22.5% (2648\u21922052). 2-bed 3542\u21922744 is -22.5% as well; similar not identical levels. Layouts kept separate.",
+      "citations": [
+        "sandbox://mreb/2023-q3.txt"
+      ],
+      "axis_type": "datetime",
+      "extras": {
+        "peak_to_trough_pct": -22.5
+      }
+    },
+    "SYN-04": {
+      "geography": "metro",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1840,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2021-Q4",
+          "unit": "1bed",
+          "value": 1912,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q1",
+          "unit": "1bed",
+          "value": 1998,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q2",
+          "unit": "1bed",
+          "value": 2114,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q3",
+          "unit": "1bed",
+          "value": 2241,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q4",
+          "unit": "1bed",
+          "value": 2379,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q1",
+          "unit": "1bed",
+          "value": 2492,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q2",
+          "unit": "1bed",
+          "value": 2586,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2648,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2591,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2508,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2419,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2346,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2280,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2214,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2161,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2118,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2084,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2026-Q1",
+          "unit": "1bed",
+          "value": 2052,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2026-Q2",
+          "unit": "1bed",
+          "value": 2078,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "axis_type": "datetime",
+      "extras": {
+        "peak": 2648,
+        "trough": 2052,
+        "peak_to_trough_pct": -22.5,
+        "latest_qoq_pct": 1.3,
+        "n_quarters": 20
+      },
+      "narrative": "Stat cards: peak 2648, trough 2052, peak-to-trough -22.5%, latest QoQ +1.3%, geography metro, n_quarters 20.",
+      "citations": [
+        "sandbox://mreb/2026-q2.txt"
+      ]
+    },
+    "SYN-05": {
+      "geography": "metro",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1840,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2021-Q4",
+          "unit": "1bed",
+          "value": 1912,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q1",
+          "unit": "1bed",
+          "value": 1998,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q2",
+          "unit": "1bed",
+          "value": 2114,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q3",
+          "unit": "1bed",
+          "value": 2241,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2022-Q4",
+          "unit": "1bed",
+          "value": 2379,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q1",
+          "unit": "1bed",
+          "value": 2492,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q2",
+          "unit": "1bed",
+          "value": 2586,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2648,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2591,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2508,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2419,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2346,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2280,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2214,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2161,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2118,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2084,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2026-Q1",
+          "unit": "1bed",
+          "value": 2052,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2026-Q2",
+          "unit": "1bed",
+          "value": 2078,
+          "geography": "metro",
+          "source_id": "MREB-public",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "method_archetype": "synthetic_econometrician",
+      "narrative": "Synthetic econometrician: metro extracts plus a documented 11.5% core premium, modeled cells tagged, datetime axis, three-regime narrative with completions and vacancy.",
+      "citations": [
+        "sandbox://mreb/2021-q3.txt"
+      ],
+      "axis_type": "datetime"
+    },
+    "SYN-06": {
+      "geography": "metro",
+      "series": [],
+      "rewritten_prompt": "Using MREB public summaries (geography=metro) and, separately, UrbanPulse (geography=core, unit=$/psf), compile 1-bed and 2-bed condominium asking rents for 2021-Q3 through 2026-Q2. Do not treat metro as C-1/C-8. Bedroom segmentation required. Missing UrbanPulse quarters: omit or interpolate with status=interpolated. Datetime axis.",
+      "narrative": "Rewrote unconstrained downtown prompt into provider, geography code, bedroom cut, missing-quarter policy.",
+      "axis_type": "datetime"
+    }
+  }
+}

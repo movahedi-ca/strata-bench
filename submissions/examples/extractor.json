@@ -1,0 +1,4137 @@
+{
+  "schema_version": "1.0.0",
+  "benchmark": "STRATA-Bench",
+  "model": "reference/extractor",
+  "agent_scaffold": "ocr-chart-fixture",
+  "track": "sandbox",
+  "date": "2026-09-18",
+  "tasks": {
+    "GEO-01": {
+      "geography": "core",
+      "geography_label": "Downtown Core",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1850,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2650,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2600,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2500,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2400,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2350,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2300,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2200,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2150,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "axis_type": "categorical",
+      "plot": {
+        "axis_type": "categorical",
+        "missing_periods_shown_as_gaps": false,
+        "n_ticks": 11
+      },
+      "narrative": "Downtown core 1-bed rents from the chart.",
+      "method_archetype": "fragmented_extractor",
+      "citations": [
+        "LeaseWatch chart"
+      ],
+      "disclaimers": []
+    },
+    "GEO-02": {
+      "geography": "core",
+      "geography_label": "Downtown Core",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1850,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2650,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2600,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2500,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2400,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2350,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2300,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2200,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2150,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "axis_type": "categorical",
+      "plot": {
+        "axis_type": "categorical",
+        "missing_periods_shown_as_gaps": false,
+        "n_ticks": 11
+      },
+      "narrative": "Downtown core 1-bed rents from the chart.",
+      "method_archetype": "fragmented_extractor",
+      "citations": [
+        "LeaseWatch chart"
+      ],
+      "disclaimers": []
+    },
+    "GEO-03": {
+      "geography": "core",
+      "geography_label": "Downtown Core",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1850,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2650,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2600,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2500,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2400,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2350,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2300,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2200,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2150,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "axis_type": "categorical",
+      "plot": {
+        "axis_type": "categorical",
+        "missing_periods_shown_as_gaps": false,
+        "n_ticks": 11
+      },
+      "narrative": "Downtown core 1-bed rents from the chart.",
+      "method_archetype": "fragmented_extractor",
+      "citations": [
+        "LeaseWatch chart"
+      ],
+      "disclaimers": []
+    },
+    "GEO-04": {
+      "geography": "core",
+      "geography_label": "Downtown Core",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1850,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2650,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2600,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2500,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2400,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2350,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2300,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2200,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2150,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "axis_type": "categorical",
+      "plot": {
+        "axis_type": "categorical",
+        "missing_periods_shown_as_gaps": false,
+        "n_ticks": 11
+      },
+      "narrative": "Downtown core 1-bed rents from the chart.",
+      "method_archetype": "fragmented_extractor",
+      "citations": [
+        "LeaseWatch chart"
+      ],
+      "disclaimers": []
+    },
+    "GEO-05": {
+      "geography": "core",
+      "geography_label": "Downtown Core",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1850,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2650,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2600,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2500,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2400,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2350,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2300,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2200,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2150,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "axis_type": "categorical",
+      "plot": {
+        "axis_type": "categorical",
+        "missing_periods_shown_as_gaps": false,
+        "n_ticks": 11
+      },
+      "narrative": "Downtown core 1-bed rents from the chart.",
+      "method_archetype": "fragmented_extractor",
+      "citations": [
+        "LeaseWatch chart"
+      ],
+      "disclaimers": []
+    },
+    "GEO-06": {
+      "geography": "core",
+      "geography_label": "Downtown Core",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1850,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2650,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2600,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2500,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2400,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2350,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2300,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2200,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2150,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "axis_type": "categorical",
+      "plot": {
+        "axis_type": "categorical",
+        "missing_periods_shown_as_gaps": false,
+        "n_ticks": 11
+      },
+      "narrative": "Downtown core 1-bed rents from the chart.",
+      "method_archetype": "fragmented_extractor",
+      "citations": [
+        "LeaseWatch chart"
+      ],
+      "disclaimers": [],
+      "extras": {
+        "metro_1bed_peak": 2650,
+        "core_1bed_peak": 2650
+      }
+    },
+    "TEMP-01": {
+      "geography": "core",
+      "geography_label": "Downtown Core",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1850,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2650,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2600,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2500,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2400,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2350,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2300,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2200,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2150,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "axis_type": "categorical",
+      "plot": {
+        "axis_type": "categorical",
+        "missing_periods_shown_as_gaps": false,
+        "n_ticks": 11
+      },
+      "narrative": "Downtown core 1-bed rents from the chart.",
+      "method_archetype": "fragmented_extractor",
+      "citations": [
+        "LeaseWatch chart"
+      ],
+      "disclaimers": []
+    },
+    "TEMP-02": {
+      "geography": "core",
+      "geography_label": "Downtown Core",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1850,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2650,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2600,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2500,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2400,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2350,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2300,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2200,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2150,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "axis_type": "categorical",
+      "plot": {
+        "axis_type": "categorical",
+        "missing_periods_shown_as_gaps": false,
+        "n_ticks": 11
+      },
+      "narrative": "Downtown core 1-bed rents from the chart.",
+      "method_archetype": "fragmented_extractor",
+      "citations": [
+        "LeaseWatch chart"
+      ],
+      "disclaimers": []
+    },
+    "TEMP-03": {
+      "geography": "core",
+      "geography_label": "Downtown Core",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1850,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2650,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2600,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2500,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2400,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2350,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2300,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2200,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2150,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "axis_type": "categorical",
+      "plot": {
+        "axis_type": "categorical",
+        "missing_periods_shown_as_gaps": false,
+        "n_ticks": 11
+      },
+      "narrative": "Downtown core 1-bed rents from the chart.",
+      "method_archetype": "fragmented_extractor",
+      "citations": [
+        "LeaseWatch chart"
+      ],
+      "disclaimers": []
+    },
+    "TEMP-04": {
+      "geography": "core",
+      "geography_label": "Downtown Core",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1850,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2650,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2600,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2500,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2400,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2350,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2300,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2200,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2150,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "axis_type": "categorical",
+      "plot": {
+        "axis_type": "categorical",
+        "missing_periods_shown_as_gaps": false,
+        "n_ticks": 11
+      },
+      "narrative": "Downtown core 1-bed rents from the chart.",
+      "method_archetype": "fragmented_extractor",
+      "citations": [
+        "LeaseWatch chart"
+      ],
+      "disclaimers": []
+    },
+    "TEMP-05": {
+      "geography": "core",
+      "geography_label": "Downtown Core",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1850,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2650,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2600,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2500,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2400,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2350,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2300,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2200,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2150,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "axis_type": "categorical",
+      "plot": {
+        "axis_type": "categorical",
+        "missing_periods_shown_as_gaps": false,
+        "n_ticks": 11
+      },
+      "narrative": "Downtown core 1-bed rents from the chart.",
+      "method_archetype": "fragmented_extractor",
+      "citations": [
+        "LeaseWatch chart"
+      ],
+      "disclaimers": []
+    },
+    "TEMP-06": {
+      "geography": "core",
+      "geography_label": "Downtown Core",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1850,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2650,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2600,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2500,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2400,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2350,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2300,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2200,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2150,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "axis_type": "categorical",
+      "plot": {
+        "axis_type": "categorical",
+        "missing_periods_shown_as_gaps": false,
+        "n_ticks": 11
+      },
+      "narrative": "Downtown core 1-bed rents from the chart.",
+      "method_archetype": "fragmented_extractor",
+      "citations": [
+        "LeaseWatch chart"
+      ],
+      "disclaimers": []
+    },
+    "SRC-01": {
+      "geography": "core",
+      "geography_label": "Downtown Core",
+      "series": [
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2650,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "axis_type": "categorical",
+      "plot": {
+        "axis_type": "categorical",
+        "missing_periods_shown_as_gaps": false,
+        "n_ticks": 11
+      },
+      "narrative": "Downtown core 1-bed rents from the chart.",
+      "method_archetype": "fragmented_extractor",
+      "citations": [
+        "LeaseWatch chart"
+      ],
+      "disclaimers": []
+    },
+    "SRC-02": {
+      "geography": "core",
+      "geography_label": "Downtown Core",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1850,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2650,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2600,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2500,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2400,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2350,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2300,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2200,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2150,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "axis_type": "categorical",
+      "plot": {
+        "axis_type": "categorical",
+        "missing_periods_shown_as_gaps": false,
+        "n_ticks": 11
+      },
+      "narrative": "LeaseWatch is close enough to treat as MLS.",
+      "method_archetype": "fragmented_extractor",
+      "citations": [
+        "LeaseWatch chart"
+      ],
+      "disclaimers": []
+    },
+    "SRC-03": {
+      "geography": "core",
+      "geography_label": "Downtown Core",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1850,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2650,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2600,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2500,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2400,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2350,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2300,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2200,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2150,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "axis_type": "categorical",
+      "plot": {
+        "axis_type": "categorical",
+        "missing_periods_shown_as_gaps": false,
+        "n_ticks": 11
+      },
+      "narrative": "Downtown core 1-bed rents from the chart.",
+      "method_archetype": "fragmented_extractor",
+      "citations": [
+        "LeaseWatch chart"
+      ],
+      "disclaimers": []
+    },
+    "SRC-04": {
+      "geography": "core",
+      "geography_label": "Downtown Core",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1850,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2650,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2600,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2500,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2400,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2350,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2300,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2200,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2150,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "axis_type": "categorical",
+      "plot": {
+        "axis_type": "categorical",
+        "missing_periods_shown_as_gaps": false,
+        "n_ticks": 11
+      },
+      "narrative": "Downtown core 1-bed rents from the chart.",
+      "method_archetype": "fragmented_extractor",
+      "citations": [
+        "LeaseWatch chart"
+      ],
+      "disclaimers": []
+    },
+    "SRC-05": {
+      "geography": "core",
+      "geography_label": "Downtown Core",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1850,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2650,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2600,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2500,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2400,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2350,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2300,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2200,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2150,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "axis_type": "categorical",
+      "plot": {
+        "axis_type": "categorical",
+        "missing_periods_shown_as_gaps": false,
+        "n_ticks": 11
+      },
+      "narrative": "Downtown core 1-bed rents from the chart.",
+      "method_archetype": "fragmented_extractor",
+      "citations": [
+        "LeaseWatch chart"
+      ],
+      "disclaimers": []
+    },
+    "SRC-06": {
+      "geography": "core",
+      "geography_label": "Downtown Core",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1850,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2650,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2600,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2500,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2400,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2350,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2300,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2200,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2150,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "axis_type": "categorical",
+      "plot": {
+        "axis_type": "categorical",
+        "missing_periods_shown_as_gaps": false,
+        "n_ticks": 11
+      },
+      "narrative": "Downtown core 1-bed rents from the chart.",
+      "method_archetype": "fragmented_extractor",
+      "citations": [
+        "LeaseWatch chart"
+      ],
+      "disclaimers": []
+    },
+    "INT-01": {
+      "geography": "core",
+      "geography_label": "Downtown Core",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1850,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2650,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2600,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2500,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2400,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2350,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2300,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2200,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2150,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "axis_type": "categorical",
+      "plot": {
+        "axis_type": "categorical",
+        "missing_periods_shown_as_gaps": false,
+        "n_ticks": 11
+      },
+      "narrative": "Downtown core 1-bed rents from the chart.",
+      "method_archetype": "fragmented_extractor",
+      "citations": [
+        "LeaseWatch chart"
+      ],
+      "disclaimers": []
+    },
+    "INT-02": {
+      "geography": "core",
+      "geography_label": "Downtown Core",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1850,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2650,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2600,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2500,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2400,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2350,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2300,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2200,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2150,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "axis_type": "categorical",
+      "plot": {
+        "axis_type": "categorical",
+        "missing_periods_shown_as_gaps": false,
+        "n_ticks": 11
+      },
+      "narrative": "Downtown core 1-bed rents from the chart.",
+      "method_archetype": "fragmented_extractor",
+      "citations": [
+        "LeaseWatch chart"
+      ],
+      "disclaimers": []
+    },
+    "INT-03": {
+      "geography": "core",
+      "geography_label": "Downtown Core",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1850,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2650,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2600,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2500,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2400,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2350,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2300,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2200,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2150,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "axis_type": "categorical",
+      "plot": {
+        "axis_type": "categorical",
+        "missing_periods_shown_as_gaps": false,
+        "n_ticks": 11
+      },
+      "narrative": "Downtown core 1-bed rents from the chart.",
+      "method_archetype": "fragmented_extractor",
+      "citations": [
+        "LeaseWatch chart"
+      ],
+      "disclaimers": []
+    },
+    "INT-04": {
+      "geography": "core",
+      "geography_label": "Downtown Core",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1850,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2650,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2600,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2500,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2400,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2350,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2300,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2200,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2150,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "axis_type": "categorical",
+      "plot": {
+        "axis_type": "categorical",
+        "missing_periods_shown_as_gaps": false,
+        "n_ticks": 11
+      },
+      "narrative": "Downtown core 1-bed rents from the chart.",
+      "method_archetype": "fragmented_extractor",
+      "citations": [
+        "LeaseWatch chart"
+      ],
+      "disclaimers": []
+    },
+    "INT-05": {
+      "geography": "core",
+      "geography_label": "Downtown Core",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1850,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2650,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2600,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2500,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2400,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2350,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2300,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2200,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2150,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "axis_type": "categorical",
+      "plot": {
+        "axis_type": "categorical",
+        "missing_periods_shown_as_gaps": false,
+        "n_ticks": 11
+      },
+      "narrative": "Downtown core 1-bed rents from the chart.",
+      "method_archetype": "fragmented_extractor",
+      "citations": [
+        "LeaseWatch chart"
+      ],
+      "disclaimers": []
+    },
+    "INT-06": {
+      "geography": "core",
+      "geography_label": "Downtown Core",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1850,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2650,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2600,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2500,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2400,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2350,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2300,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2200,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2150,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "axis_type": "categorical",
+      "plot": {
+        "axis_type": "categorical",
+        "missing_periods_shown_as_gaps": false,
+        "n_ticks": 11
+      },
+      "narrative": "Downtown core 1-bed rents from the chart.",
+      "method_archetype": "fragmented_extractor",
+      "citations": [
+        "LeaseWatch chart"
+      ],
+      "disclaimers": []
+    },
+    "AXIS-01": {
+      "geography": "core",
+      "geography_label": "Downtown Core",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1850,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2650,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2600,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2500,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2400,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2350,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2300,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2200,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2150,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "axis_type": "categorical",
+      "plot": {
+        "axis_type": "categorical",
+        "missing_periods_shown_as_gaps": false,
+        "n_ticks": 11
+      },
+      "narrative": "Downtown core 1-bed rents from the chart.",
+      "method_archetype": "fragmented_extractor",
+      "citations": [
+        "LeaseWatch chart"
+      ],
+      "disclaimers": []
+    },
+    "AXIS-02": {
+      "geography": "core",
+      "geography_label": "Downtown Core",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1850,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2650,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2600,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2500,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2400,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2350,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2300,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2200,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2150,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "axis_type": "categorical",
+      "plot": {
+        "axis_type": "categorical",
+        "missing_periods_shown_as_gaps": false,
+        "n_ticks": 11
+      },
+      "narrative": "Read the chart; ticks look quarterly.",
+      "method_archetype": "fragmented_extractor",
+      "citations": [
+        "LeaseWatch chart"
+      ],
+      "disclaimers": []
+    },
+    "AXIS-03": {
+      "geography": "core",
+      "geography_label": "Downtown Core",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1850,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2650,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2600,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2500,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2400,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2350,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2300,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2200,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2150,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "axis_type": "categorical",
+      "plot": {
+        "axis_type": "categorical",
+        "missing_periods_shown_as_gaps": false,
+        "n_ticks": 11
+      },
+      "narrative": "Downtown core 1-bed rents from the chart.",
+      "method_archetype": "fragmented_extractor",
+      "citations": [
+        "LeaseWatch chart"
+      ],
+      "disclaimers": []
+    },
+    "AXIS-04": {
+      "geography": "core",
+      "geography_label": "Downtown Core",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1850,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2650,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2600,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2500,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2400,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2350,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2300,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2200,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2150,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "axis_type": "categorical",
+      "plot": {
+        "axis_type": "categorical",
+        "missing_periods_shown_as_gaps": false,
+        "n_ticks": 11
+      },
+      "narrative": "Downtown core 1-bed rents from the chart.",
+      "method_archetype": "fragmented_extractor",
+      "citations": [
+        "LeaseWatch chart"
+      ],
+      "disclaimers": []
+    },
+    "AXIS-05": {
+      "geography": "core",
+      "geography_label": "Downtown Core",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1850,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2650,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2600,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2500,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2400,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2350,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2300,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2200,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2150,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "axis_type": "categorical",
+      "plot": {
+        "axis_type": "categorical",
+        "missing_periods_shown_as_gaps": false,
+        "n_ticks": 11
+      },
+      "narrative": "Downtown core 1-bed rents from the chart.",
+      "method_archetype": "fragmented_extractor",
+      "citations": [
+        "LeaseWatch chart"
+      ],
+      "disclaimers": []
+    },
+    "AXIS-06": {
+      "geography": "core",
+      "geography_label": "Downtown Core",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1850,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2650,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2600,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2500,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2400,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2350,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2300,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2200,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2150,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "axis_type": "categorical",
+      "plot": {
+        "axis_type": "categorical",
+        "missing_periods_shown_as_gaps": false,
+        "n_ticks": 11
+      },
+      "narrative": "Downtown core 1-bed rents from the chart.",
+      "method_archetype": "fragmented_extractor",
+      "citations": [
+        "LeaseWatch chart"
+      ],
+      "disclaimers": []
+    },
+    "SYN-01": {
+      "geography": "core",
+      "geography_label": "Downtown Core",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1850,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2650,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2600,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2500,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2400,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2350,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2300,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2200,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2150,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "axis_type": "categorical",
+      "plot": {
+        "axis_type": "categorical",
+        "missing_periods_shown_as_gaps": false,
+        "n_ticks": 11
+      },
+      "narrative": "Downtown core 1-bed rents from the chart.",
+      "method_archetype": "fragmented_extractor",
+      "citations": [
+        "LeaseWatch chart"
+      ],
+      "disclaimers": []
+    },
+    "SYN-02": {
+      "geography": "core",
+      "geography_label": "Downtown Core",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1850,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2650,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2600,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2500,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2400,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2350,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2300,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2200,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2150,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "axis_type": "categorical",
+      "plot": {
+        "axis_type": "categorical",
+        "missing_periods_shown_as_gaps": false,
+        "n_ticks": 11
+      },
+      "narrative": "Downtown core 1-bed rents from the chart.",
+      "method_archetype": "fragmented_extractor",
+      "citations": [
+        "LeaseWatch chart"
+      ],
+      "disclaimers": []
+    },
+    "SYN-03": {
+      "geography": "core",
+      "geography_label": "Downtown Core",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1850,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2650,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2600,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2500,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2400,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2350,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2300,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2200,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2150,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "axis_type": "categorical",
+      "plot": {
+        "axis_type": "categorical",
+        "missing_periods_shown_as_gaps": false,
+        "n_ticks": 11
+      },
+      "narrative": "Downtown core 1-bed rents from the chart.",
+      "method_archetype": "fragmented_extractor",
+      "citations": [
+        "LeaseWatch chart"
+      ],
+      "disclaimers": []
+    },
+    "SYN-04": {
+      "geography": "core",
+      "geography_label": "Downtown Core",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1850,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2650,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2600,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2500,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2400,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2350,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2300,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2200,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2150,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "axis_type": "categorical",
+      "plot": {
+        "axis_type": "categorical",
+        "missing_periods_shown_as_gaps": false,
+        "n_ticks": 11
+      },
+      "narrative": "Downtown core 1-bed rents from the chart.",
+      "method_archetype": "fragmented_extractor",
+      "citations": [
+        "LeaseWatch chart"
+      ],
+      "disclaimers": []
+    },
+    "SYN-05": {
+      "geography": "core",
+      "geography_label": "Downtown Core",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1850,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2650,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2600,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2500,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2400,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2350,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2300,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2200,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2150,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "axis_type": "categorical",
+      "plot": {
+        "axis_type": "categorical",
+        "missing_periods_shown_as_gaps": false,
+        "n_ticks": 11
+      },
+      "narrative": "Downtown core 1-bed rents from the chart.",
+      "method_archetype": "empirical_literalist",
+      "citations": [
+        "LeaseWatch chart"
+      ],
+      "disclaimers": []
+    },
+    "SYN-06": {
+      "geography": "core",
+      "geography_label": "Downtown Core",
+      "series": [
+        {
+          "period": "2021-Q3",
+          "unit": "1bed",
+          "value": 1850,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q3",
+          "unit": "1bed",
+          "value": 2650,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2023-Q4",
+          "unit": "1bed",
+          "value": 2600,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q1",
+          "unit": "1bed",
+          "value": 2500,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q2",
+          "unit": "1bed",
+          "value": 2400,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q3",
+          "unit": "1bed",
+          "value": 2350,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2024-Q4",
+          "unit": "1bed",
+          "value": 2300,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q1",
+          "unit": "1bed",
+          "value": 2200,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q2",
+          "unit": "1bed",
+          "value": 2150,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q3",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        },
+        {
+          "period": "2025-Q4",
+          "unit": "1bed",
+          "value": 2100,
+          "geography": "core",
+          "source_id": "LeaseWatch",
+          "status": "reported",
+          "marker": "solid"
+        }
+      ],
+      "axis_type": "categorical",
+      "plot": {
+        "axis_type": "categorical",
+        "missing_periods_shown_as_gaps": false,
+        "n_ticks": 11
+      },
+      "narrative": "Downtown core 1-bed rents from the chart.",
+      "method_archetype": "fragmented_extractor",
+      "citations": [
+        "LeaseWatch chart"
+      ],
+      "disclaimers": [],
+      "rewritten_prompt": "give me downtown Meridian condo rents over 5 years"
+    }
+  }
+}
