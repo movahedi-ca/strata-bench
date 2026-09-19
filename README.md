@@ -7,6 +7,7 @@
 A benchmark for AI agents that must compile longitudinal market intelligence from **fragmented, geographically nested, and temporally incomplete** evidence — without hallucinating downtown numbers, silently interpolating missing quarters, or plotting gaps as if they were data.
 
 [![CI](https://github.com/movahedi-ca/strata-bench/actions/workflows/ci.yml/badge.svg)](https://github.com/movahedi-ca/strata-bench/actions/workflows/ci.yml)
+[![PyPI](https://img.shields.io/pypi/v/strata-bench)](https://pypi.org/project/strata-bench/)
 [![Coverage](https://codecov.io/gh/movahedi-ca/strata-bench/branch/main/graph/badge.svg)](https://codecov.io/gh/movahedi-ca/strata-bench)
 [![License](https://img.shields.io/badge/license-Apache%202.0-0e1210)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10%2B-d4a574)](pyproject.toml)
