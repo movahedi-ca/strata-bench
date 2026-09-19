@@ -1,0 +1,106 @@
+---
+layout: page
+title: "Can you spot the hallucination?"
+permalink: /spot.html
+description: A 90-second game drawn from STRATA-Bench's six failure families. Six agent outputs — you judge: grounded, hallucinated, or should-have-qualified.
+---
+
+<style>
+#spot-game { max-width: 640px; margin: 0 auto; }
+.spot-card { border: 1px solid #ddd; border-radius: 10px; padding: 18px; margin: 16px 0; background: #fff; }
+.spot-evidence { background: #f6f8fa; border-left: 4px solid #888; padding: 10px 14px; font-size: 0.92em; margin: 10px 0; }
+.spot-claim { font-size: 1.05em; margin: 10px 0; }
+.spot-btns button { margin: 6px 8px 6px 0; padding: 9px 16px; border-radius: 8px; border: 1px solid #333; background: #fff; cursor: pointer; font-size: 0.95em; }
+.spot-btns button:hover { background: #333; color: #fff; }
+.spot-verdict { display: none; padding: 12px 14px; border-radius: 8px; margin-top: 10px; font-size: 0.95em; }
+.spot-verdict.right { background: #e6f4ea; border: 1px solid #34a853; display: block; }
+.spot-verdict.wrong { background: #fce8e6; border: 1px solid #ea4335; display: block; }
+#spot-score { font-size: 1.2em; font-weight: bold; text-align: center; margin: 20px 0; }
+#spot-next { display: none; margin: 10px auto; padding: 10px 24px; border-radius: 8px; background: #1a73e8; color: #fff; border: none; cursor: pointer; font-size: 1em; }
+</style>
+
+<div id="spot-game">
+<p><em>Illustrative mini-cases inspired by STRATA-Bench's six failure families (not real corpus data).
+Six agent outputs. For each: is it <strong>grounded</strong>, <strong>hallucinated</strong>, or <strong>should it have qualified or refused</strong>?</em></p>
+<div id="spot-score"></div>
+<div id="spot-round"></div>
+<button id="spot-next">Next →</button>
+</div>
+
+<script>
+const ROUNDS = [
+ { family: "GEO · Geographic masking",
+   evidence: "Corpus has metro-wide MREB rents ($2,410 avg, 2025-Q4) and a separate UrbanPulse Downtown Core series ($2,890 avg, 2025-Q4).",
+   claim: "Agent reports: “Downtown Core 1-bed asking rent, 2025-Q4: $2,410.”",
+   answer: "hallucinated",
+   why: "It relabeled a metro-wide figure as Downtown Core. Correct conduct: disclose the geography, use the Core series, or refuse the Core number." },
+ { family: "TEMP · Temporal attrition",
+   evidence: "Corpus covers 2021-Q3 → 2025-Q1. Nothing exists for 2025-Q2 onward.",
+   claim: "Agent reports a full quarterly table through 2026-Q2, every cell filled, no footnotes.",
+   answer: "hallucinated",
+   why: "It silently invented five quarters of data. Correct conduct: stop at 2025-Q1 and say the rest is unavailable — or model it with status=modeled." },
+ { family: "SRC · OCR laundering",
+   evidence: "A scanned PDF table reads “$2,4l0” (OCR misread of $2,410) for North York 2023-Q2.",
+   claim: "Agent reports North York 2023-Q2 at $2,410, citing the scanned table, no caveat.",
+   answer: "qualified",
+   why: "The number happens to be right, but the agent laundered an OCR artifact into a clean fact. Correct conduct: flag the scan as low-fidelity or cross-check it." },
+ { family: "INT · Silent interpolation",
+   evidence: "Q1 = $2,300 and Q3 = $2,500 are in the corpus. Q2 is missing everywhere.",
+   claim: "Agent's chart shows Q2 = $2,400 with the same solid line and marker as real quarters.",
+   answer: "hallucinated",
+   why: "Interpolating is fine — presenting it indistinguishably from observed data is not. Correct conduct: dashed line, hollow marker, 'interpolated' label." },
+ { family: "AXIS · Non-uniform axes",
+   evidence: "Quarterly observations with two missing quarters in the middle of the series.",
+   claim: "Agent's time-series plot spaces all points evenly; the gap is invisible.",
+   answer: "hallucinated",
+   why: "A plot that hides missingness is a visual hallucination. Correct conduct: break the axis or mark the gap explicitly." },
+ { family: "SYN · Source blending",
+   evidence: "Asking rents come from listings (UrbanPulse); closed rents from the land registry (MREB). They differ by ~8%.",
+   claim: "Agent writes: “Rents rose 8%,” mixing an UrbanPulse asking figure with an MREB closed figure as one series.",
+   answer: "hallucinated",
+   why: "It blended two different measures into a fake trend. Correct conduct: keep series separate or normalize with a documented adjustment." },
+];
+let idx = 0, score = 0;
+const roundEl = document.getElementById('spot-round');
+const scoreEl = document.getElementById('spot-score');
+const nextBtn = document.getElementById('spot-next');
+function render() {
+  if (idx >= ROUNDS.length) {
+    roundEl.innerHTML = "";
+    nextBtn.style.display = "none";
+    const verdict = score === 6 ? "Flawless — you'd survive the benchmark." :
+      score >= 4 ? "Sharp. The benchmark would still find your blind spots." :
+      "This is exactly why the benchmark exists.";
+    scoreEl.innerHTML = `You scored <strong>${score} / 6</strong>.<br>${verdict}<br><br>
+      <a href="https://github.com/movahedi-ca/strata-bench">Run the full 36-task benchmark →</a>`;
+    return;
+  }
+  const r = ROUNDS[idx];
+  scoreEl.textContent = `Round ${idx + 1} of 6 · Score: ${score}`;
+  roundEl.innerHTML = `
+    <div class="spot-card">
+      <div><strong>${r.family}</strong></div>
+      <div class="spot-evidence"><strong>Evidence:</strong> ${r.evidence}</div>
+      <div class="spot-claim"><strong>Agent output:</strong> ${r.claim}</div>
+      <div class="spot-btns">
+        <button data-a="grounded">Grounded</button>
+        <button data-a="hallucinated">Hallucinated</button>
+        <button data-a="qualified">Should have qualified / refused</button>
+      </div>
+      <div class="spot-verdict" id="spot-verdict"></div>
+    </div>`;
+  nextBtn.style.display = "none";
+  roundEl.querySelectorAll('button').forEach(b => b.onclick = () => judge(b.dataset.a, r));
+}
+function judge(pick, r) {
+  const v = document.getElementById('spot-verdict');
+  const ok = pick === r.answer;
+  if (ok) score++;
+  v.className = 'spot-verdict ' + (ok ? 'right' : 'wrong');
+  v.innerHTML = (ok ? "✓ Correct. " : `✗ The benchmark's answer: <strong>${r.answer}</strong>. `) + r.why;
+  roundEl.querySelectorAll('.spot-btns button').forEach(b => b.disabled = true);
+  nextBtn.style.display = "block";
+}
+nextBtn.onclick = () => { idx++; render(); };
+render();
+</script>
