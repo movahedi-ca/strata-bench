@@ -20,3 +20,7 @@ fragmented, geographically nested, and temporally incomplete evidence.
 
 Start with the [README](https://github.com/movahedi-ca/strata-bench#readme)
 for installation and the quickstart.
+
+---
+
+*STRATA-Bench is built by [Mohammad Movahedi](https://movahedi.ca) — Data Privacy & AI Governance Consultant, Toronto.*
