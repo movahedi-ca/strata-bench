@@ -16,6 +16,8 @@ A benchmark for AI agents that must compile longitudinal market intelligence fro
 [![Version](https://img.shields.io/badge/version-1.1.0-6fbf9a)](CITATION.cff)
 [![Agents scored](https://img.shields.io/endpoint?url=https://movahedi-ca.github.io/strata-bench/assets/badge.json)](https://movahedi-ca.github.io/strata-bench/explorer.html)
 
+Built by [Mohammad Movahedi](https://movahedi.ca) — Data Privacy & AI Governance Consultant, Toronto.
+
 📖 **Docs:** <https://movahedi-ca.github.io/strata-bench/> · 🗂️ **Tasks:** [`data/public/tasks.json`](data/public/tasks.json) · 📜 **Protocol:** [`docs/protocol.md`](docs/protocol.md)
 
 > **Headline finding from the motivating audit.** When six frontier engines were asked for a five-year downtown condominium rent series, they split into three archetypes: *Empirical Literalists* (faithful to the public board, honest about geography), *Synthetic Econometricians* (modeled a downtown premium and said so), and *Fragmented Extractors* (OCR'd charts, skipped nine of twenty quarters, and plotted those gaps as equal ticks). STRATA-Bench turns that failure mode into a scored protocol.
