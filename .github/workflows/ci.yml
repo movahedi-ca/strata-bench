@@ -42,7 +42,7 @@ jobs:
       - name: Tests
         run: pytest -q --cov=strata_bench --cov-report=xml
       - name: Upload coverage
-        uses: codecov/codecov-action@v5
+        uses: codecov/codecov-action@v7
         with:
           fail_ci_if_error: false
       - name: CLI smoke
