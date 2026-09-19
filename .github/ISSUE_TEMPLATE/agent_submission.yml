@@ -1,0 +1,40 @@
+name: Agent submission
+description: Submit your agent's run to the community leaderboard.
+title: "[agent] "
+labels: ["submission"]
+body:
+  - type: input
+    id: agent
+    attributes:
+      label: Agent name
+      placeholder: e.g. my-research-agent
+    validations:
+      required: true
+  - type: input
+    id: model
+    attributes:
+      label: Underlying model
+      placeholder: e.g. claude-opus-4.1
+    validations:
+      required: true
+  - type: textarea
+    id: approach
+    attributes:
+      label: Approach in one paragraph
+      description: How does your agent handle missing quarters, metro-vs-core geography, and OCR'd charts?
+      placeholder: e.g. Refuses Core series when MREB is metro-only; tags OCR values; never interpolates silently.
+    validations:
+      required: true
+  - type: input
+    id: pr
+    attributes:
+      label: Submission PR
+      description: Link to your PR adding the run JSON under submissions/community/.
+      placeholder: https://github.com/movahedi-ca/strata-bench/pull/123
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: My run follows the protocol (docs/protocol.md) — disclose, tag, refuse, or model
+        - label: I have not edited benchmark data or gold files

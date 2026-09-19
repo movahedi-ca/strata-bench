@@ -1,0 +1,32 @@
+name: Task proposal
+description: Propose a new sandbox task or failure variant.
+title: "[task] "
+labels: ["task-proposal"]
+body:
+  - type: input
+    id: family
+    attributes:
+      label: Failure family
+      description: GEO, TEMP, SRC, INT, AXIS, SYN — or propose a new one.
+    validations:
+      required: true
+  - type: textarea
+    id: prompt
+    attributes:
+      label: Task prompt
+      description: The brief an agent would receive. Make it a trap a Fragmented Extractor would fall into.
+      placeholder: e.g. Report downtown 2-bedroom rents for every quarter 2021–2026 using only the sandbox corpus.
+    validations:
+      required: true
+  - type: textarea
+    id: trap
+    attributes:
+      label: What should the agent catch?
+      description: The specific failure this task probes and what the correct behavior looks like.
+    validations:
+      required: true
+  - type: textarea
+    id: hardfail
+    attributes:
+      label: Proposed hard fail
+      description: The behavior that should cap the task at 55% of credit.
