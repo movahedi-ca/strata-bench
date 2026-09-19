@@ -51,7 +51,7 @@ jobs:
           done
           echo "fail=$fail" >> "$GITHUB_OUTPUT"
       - name: Post scorecard comment
-        uses: actions/github-script@v7
+        uses: actions/github-script@v9
         with:
           script: |
             const fs = require('fs');
