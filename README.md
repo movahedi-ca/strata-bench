@@ -1,13 +1,18 @@
 # STRATA-Bench
 
+![STRATA-Bench: layered glass strata of fragmented market data examined under a magnifying lens](docs/assets/hero.png)
+
 **Spatial-Temporal Retrieval, Alignment, Transparency & Audit**
 
 A benchmark for AI agents that must compile longitudinal market intelligence from **fragmented, geographically nested, and temporally incomplete** evidence — without hallucinating downtown numbers, silently interpolating missing quarters, or plotting gaps as if they were data.
 
 [![CI](https://github.com/movahedi-ca/strata-bench/actions/workflows/ci.yml/badge.svg)](https://github.com/movahedi-ca/strata-bench/actions/workflows/ci.yml)
+[![Coverage](https://codecov.io/gh/movahedi-ca/strata-bench/branch/main/graph/badge.svg)](https://codecov.io/gh/movahedi-ca/strata-bench)
 [![License](https://img.shields.io/badge/license-Apache%202.0-0e1210)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10%2B-d4a574)](pyproject.toml)
-[![Version](https://img.shields.io/badge/version-1.0.0-6fbf9a)](CITATION.cff)
+[![Version](https://img.shields.io/badge/version-1.1.0-6fbf9a)](CITATION.cff)
+
+📖 **Docs:** <https://movahedi-ca.github.io/strata-bench/> · 🗂️ **Tasks:** [`data/public/tasks.json`](data/public/tasks.json) · 📜 **Protocol:** [`docs/protocol.md`](docs/protocol.md)
 
 > **Headline finding from the motivating audit.** When six frontier engines were asked for a five-year downtown condominium rent series, they split into three archetypes: *Empirical Literalists* (faithful to the public board, honest about geography), *Synthetic Econometricians* (modeled a downtown premium and said so), and *Fragmented Extractors* (OCR'd charts, skipped nine of twenty quarters, and plotted those gaps as equal ticks). STRATA-Bench turns that failure mode into a scored protocol.
 
@@ -112,6 +117,19 @@ strata-bench evaluate submissions/examples/econometrician.json
 strata-bench evaluate submissions/examples/extractor.json
 ```
 
+## Community leaderboard
+
+Ran your own agent? Add the run as `submissions/community/<agent>-<model>.json`
+(matching [`submissions/SCHEMA.md`](submissions/SCHEMA.md)) and open a pull
+request — the **Community leaderboard** workflow scores it against the frozen
+v1.0 gold and posts the scorecard as a comment on your PR.
+
+| Agent | Model | Headline | Run |
+| --- | --- | --- | --- |
+| *your agent here* | — | — | open a PR to claim this row |
+
+See [`submissions/community/README.md`](submissions/community/README.md) for the rules.
+
 ## Protocol in one page
 
 1. **Name the geography of every number.** `metro` and `core` are different series. “Downtown” is not a board code.
@@ -147,7 +165,7 @@ Agents on Track Sandbox may read `data/sandbox/corpus/**` and `data/public/tasks
   author    = {Movahedi, Mohammad},
   title     = {{STRATA-Bench}: Evaluating AI Agents on Fragmented Spatial-Temporal Market Intelligence},
   year      = {2026},
-  version   = {1.0.0},
+  version   = {1.1.0},
   url       = {https://github.com/movahedi-ca/strata-bench},
   license   = {Apache-2.0}
 }
@@ -157,7 +175,13 @@ If you use the Toronto *motivating audit* in related work, cite the protocol's a
 
 ## Status
 
-**v1.0.0** — sandbox corpus frozen, scorer frozen, 36 official tasks. Live track is a probe, not a leaderboard. Gold is shipped in-tree so local evaluation is possible; a hashed hidden split for a future hosted leaderboard is sketched in `data/hidden/README.md`.
+**v1.1.0** — tooling & docs release. The benchmark itself (sandbox corpus,
+scorer, 36 official tasks) is **frozen at v1.0**. Live track is a probe, not a
+leaderboard. Gold is shipped in-tree so local evaluation is possible; a hashed
+hidden split for a future hosted leaderboard is sketched in
+`data/hidden/README.md` and tracked in
+[#1](https://github.com/movahedi-ca/strata-bench/issues/1).
+See [CHANGELOG.md](CHANGELOG.md).
 
 Contributions: [`CONTRIBUTING.md`](CONTRIBUTING.md). Code of conduct: [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md). Security: [`SECURITY.md`](SECURITY.md).
 

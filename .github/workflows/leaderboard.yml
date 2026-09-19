@@ -1,0 +1,82 @@
+name: Community leaderboard
+
+# Scores community submissions and posts the scorecard as a PR comment.
+# Scores are computed against the in-tree v1.0 gold — the same trust model
+# as local evaluation. See submissions/community/README.md.
+
+on:
+  pull_request:
+    paths:
+      - "submissions/community/*.json"
+
+permissions:
+  pull-requests: write
+  contents: read
+
+jobs:
+  score:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e .
+      - name: Score changed submissions
+        id: score
+        run: |
+          : > scorecard.md
+          fail=0
+          for f in $(git diff --name-only "${{ github.event.pull_request.base.sha }}"...HEAD -- 'submissions/community/*.json'); do
+            {
+              echo "## \`$f\`"
+              echo
+            } >> scorecard.md
+            if strata-bench evaluate "$f" --format markdown >> scorecard.md 2>err.txt; then
+              echo >> scorecard.md
+            else
+              {
+                echo "**Scoring failed** — the submission did not validate:"
+                echo '```'
+                cat err.txt
+                echo '```'
+              } >> scorecard.md
+              fail=1
+            fi
+          done
+          echo "fail=$fail" >> "$GITHUB_OUTPUT"
+      - name: Post scorecard comment
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const marker = '<!-- strata-leaderboard -->';
+            const body = marker + '\n# STRATA-Bench community scorecard\n\n'
+              + fs.readFileSync('scorecard.md', 'utf8')
+              + '\n\n_Scored against the frozen v1.0 sandbox gold._';
+            const { data: comments } = await github.rest.issues.listComments({
+              ...context.repo,
+              issue_number: context.issue.number,
+            });
+            const existing = comments.find(c => c.body.includes(marker));
+            if (existing) {
+              await github.rest.issues.updateComment({
+                ...context.repo,
+                comment_id: existing.id,
+                body,
+              });
+            } else {
+              await github.rest.issues.createComment({
+                ...context.repo,
+                issue_number: context.issue.number,
+                body,
+              });
+            }
+      - name: Fail on invalid submissions
+        if: steps.score.outputs.fail == '1'
+        run: exit 1

@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "strata-bench"
-version = "1.0.0"
+version = "1.1.0"
 description = "STRATA-Bench: Spatial-Temporal Retrieval, Alignment, Transparency & Audit — a benchmark for AI agents on fragmented geographic and longitudinal market intelligence."
 readme = "README.md"
 license = { text = "Apache-2.0" }

@@ -131,9 +131,12 @@ def _source_score(answer: TaskAnswer, task: dict[str, Any]) -> tuple[float, list
 
 def _value_at(answer: TaskAnswer, period: str, geography: str | None = None) -> float | None:
     for o in answer.series:
-        if o.period == period and o.value is not None:
-            if geography is None or o.geography == geography:
-                return o.value
+        if (
+            o.period == period
+            and o.value is not None
+            and (geography is None or o.geography == geography)
+        ):
+            return o.value
     return None
 
 
@@ -152,9 +155,13 @@ def _spatial_score(
         for o in answer.series:
             if o.value is None or o.period not in metro_vals:
                 continue
-            if _close(o.value, metro_vals[o.period]) and o.geography in {"core", "unknown"}:
-                if o.status == "reported" and not answer.disclaimers:
-                    metro_as_core = True
+            if (
+                _close(o.value, metro_vals[o.period])
+                and o.geography in {"core", "unknown"}
+                and o.status == "reported"
+                and not answer.disclaimers
+            ):
+                metro_as_core = True
     if metro_as_core and task["family"] == "GEO":
         fails.append("GEO_MASK")
         score = 1.5
@@ -198,16 +205,22 @@ def _stat_score(
                 matched += 1
     if expected:
         score = 10.0 * matched / expected
-    if task["id"] == "AXIS-03":
-        if "22.5" in text or (answer.extras or {}).get("peak_to_trough_pct") is not None:
-            extras = answer.extras or {}
-            if extras.get("peak_to_trough_pct") is not None and abs(
-                float(extras["peak_to_trough_pct"]) - (-22.5)
-            ) < 0.6:
-                score = 10.0
-            elif "22.5" in text:
-                score = max(score, 9.5)
-    if task["id"] == "SRC-05" and "psf" not in text and not any(o.unit == "psf" for o in answer.series):
+    if task["id"] == "AXIS-03" and (
+        "22.5" in text or (answer.extras or {}).get("peak_to_trough_pct") is not None
+    ):
+        extras = answer.extras or {}
+        if (
+            extras.get("peak_to_trough_pct") is not None
+            and abs(float(extras["peak_to_trough_pct"]) - (-22.5)) < 0.6
+        ):
+            score = 10.0
+        elif "22.5" in text:
+            score = max(score, 9.5)
+    if (
+        task["id"] == "SRC-05"
+        and "psf" not in text
+        and not any(o.unit == "psf" for o in answer.series)
+    ):
         fails.append("UNIT_COLLAPSE")
         score = min(score, 4.0)
     if task["id"] == "SYN-02" and len(answer.series) <= 1 and not answer.disclaimers:
@@ -240,9 +253,7 @@ def _visual_score(answer: TaskAnswer, task: dict[str, Any]) -> tuple[float, list
         n = len(answer.series)
         marked = sum(1 for o in answer.series if o.marker in {"solid", "hollow"})
         score = 10.0 * marked / n if n else 3.0
-    if task["id"] == "AXIS-02" and (
-        "collapsed" in text or "non-uniform" in text or "gap" in text
-    ):
+    if task["id"] == "AXIS-02" and ("collapsed" in text or "non-uniform" in text or "gap" in text):
         score = max(score, 9.0)
     if task["id"] == "AXIS-05" and (
         "incommensur" in text or "second axis" in text or "dual" in text or "cannot" in text

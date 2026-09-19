@@ -50,9 +50,7 @@ def main(argv: list[str] | None = None) -> int:
 
     gold = load_gold(args.gold) if args.gold else load_gold()
     catalog = load_tasks(args.tasks) if args.tasks else load_tasks()
-    result = evaluate_submission(
-        args.submission, gold=gold, catalog=catalog, track=args.track
-    )
+    result = evaluate_submission(args.submission, gold=gold, catalog=catalog, track=args.track)
     if args.format == "json":
         payload = json.dumps(result, indent=2) + "\n"
     elif args.format == "markdown":

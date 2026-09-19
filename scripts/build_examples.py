@@ -304,7 +304,9 @@ def literalist() -> dict:
             for p in PERIODS
         ],
         "interpolated_periods": [],
-        "disclaimers": ["Legend: * = modeled (metro × 1.115). Unstarred would be reported UrbanPulse; this table is modeled core 1-bed."],
+        "disclaimers": [
+            "Legend: * = modeled (metro × 1.115). Unstarred would be reported UrbanPulse; this table is modeled core 1-bed."
+        ],
         "narrative": "Asterisk legend maps * to modeled/interpolated.",
         "axis_type": "datetime",
     }
@@ -455,12 +457,10 @@ def econometrician() -> dict:
     base["model"] = "reference/econometrician"
     base["agent_scaffold"] = "protocol-fixture+premium"
     core_modeled = [
-        obs(p, CORE_1[p], "1bed", "core", "modeled-11.5pct", "modeled", "hollow")
-        for p in PERIODS
+        obs(p, CORE_1[p], "1bed", "core", "modeled-11.5pct", "modeled", "hollow") for p in PERIODS
     ]
     core_2 = [
-        obs(p, CORE_2[p], "2bed", "core", "modeled-11.5pct", "modeled", "hollow")
-        for p in PERIODS
+        obs(p, CORE_2[p], "2bed", "core", "modeled-11.5pct", "modeled", "hollow") for p in PERIODS
     ]
     premium_note = (
         "Core is not in public MREB. Modeled as metro × 1.115 (documented premium), "
@@ -482,7 +482,10 @@ def econometrician() -> dict:
     t["GEO-04"] = {
         "geography": "core",
         "series": core_modeled + core_2,
-        "disclaimers": [premium_note, "1-bed, 2-bed, and a simple mean blend disclosed as extras.blend"],
+        "disclaimers": [
+            premium_note,
+            "1-bed, 2-bed, and a simple mean blend disclosed as extras.blend",
+        ],
         "extras": {"blend": "mean(1bed, 2bed)"},
         "citations": ["sandbox://mreb/2023-q3.txt"],
         "axis_type": "datetime",
@@ -492,7 +495,9 @@ def econometrician() -> dict:
         "geography": "mixed",
         "series": [
             obs("2023-Q3", METRO_1["2023-Q3"], "1bed", "metro", "MREB-public", "reported"),
-            obs("2023-Q3", CORE_1["2023-Q3"], "1bed", "core", "modeled-11.5pct", "modeled", "hollow"),
+            obs(
+                "2023-Q3", CORE_1["2023-Q3"], "1bed", "core", "modeled-11.5pct", "modeled", "hollow"
+            ),
         ],
         "disclaimers": [premium_note],
         "citations": ["sandbox://mreb/2023-q3.txt"],
@@ -531,9 +536,7 @@ def extractor() -> dict:
     # Pretend they also drop 2025-Q4 leftover and definitely 2026
     keep = [p for p in keep if not p.startswith("2026")]
     rounded = {p: int(round(METRO_1[p] / 50) * 50) for p in keep}
-    series = [
-        obs(p, rounded[p], "1bed", "core", "LeaseWatch", "reported", "solid") for p in keep
-    ]
+    series = [obs(p, rounded[p], "1bed", "core", "LeaseWatch", "reported", "solid") for p in keep]
     bad_narrative = "Downtown core 1-bed rents from the chart."
     tasks = {}
     for spec in TASKS:
@@ -545,7 +548,11 @@ def extractor() -> dict:
             "geography_label": "Downtown Core",
             "series": series,
             "axis_type": "categorical",
-            "plot": {"axis_type": "categorical", "missing_periods_shown_as_gaps": False, "n_ticks": len(keep)},
+            "plot": {
+                "axis_type": "categorical",
+                "missing_periods_shown_as_gaps": False,
+                "n_ticks": len(keep),
+            },
             "narrative": bad_narrative,
             "method_archetype": "fragmented_extractor",
             "citations": ["LeaseWatch chart"],
@@ -556,9 +563,7 @@ def extractor() -> dict:
         "metro_1bed_peak": rounded.get("2023-Q3", 2650),
         "core_1bed_peak": rounded.get("2023-Q3", 2650),
     }
-    tasks["SRC-01"]["series"] = [
-        obs("2023-Q3", 2650, "1bed", "core", "LeaseWatch", "reported")
-    ]
+    tasks["SRC-01"]["series"] = [obs("2023-Q3", 2650, "1bed", "core", "LeaseWatch", "reported")]
     tasks["SRC-02"]["narrative"] = "LeaseWatch is close enough to treat as MLS."
     tasks["AXIS-02"]["narrative"] = "Read the chart; ticks look quarterly."
     tasks["TEMP-02"]["series"] = series  # no 2026

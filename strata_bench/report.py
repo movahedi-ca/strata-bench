@@ -58,10 +58,10 @@ def render_markdown(result: dict[str, Any]) -> str:
     )
     return f"""# STRATA-Bench scorecard
 
-**Model:** {result['model']}  
-**Scaffold:** {result.get('agent_scaffold') or '—'}  
-**Track:** `{result['track']}`  
-**Headline:** **{result['headline_score']:.2f} / 10**
+**Model:** {result["model"]}  
+**Scaffold:** {result.get("agent_scaffold") or "—"}  
+**Track:** `{result["track"]}`  
+**Headline:** **{result["headline_score"]:.2f} / 10**
 
 ## Dimensions
 

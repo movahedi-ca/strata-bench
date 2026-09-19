@@ -6,7 +6,7 @@ import json
 from pathlib import Path
 from typing import Any
 
-from .schema import DIMENSIONS, DIMENSION_WEIGHTS, Submission, TaskAnswer
+from .schema import DIMENSION_WEIGHTS, DIMENSIONS, Submission, TaskAnswer
 from .scoring import Scorecard, score_task
 
 PKG_ROOT = Path(__file__).resolve().parents[1]
@@ -39,9 +39,7 @@ def _weighted_mean(cards: list[Scorecard], tasks_by_id: dict[str, dict]) -> floa
 def _dimension_means(cards: list[Scorecard]) -> dict[str, float]:
     if not cards:
         return {k: 0.0 for k in DIMENSIONS}
-    return {
-        k: round(sum(getattr(c.scores, k) for c in cards) / len(cards), 2) for k in DIMENSIONS
-    }
+    return {k: round(sum(getattr(c.scores, k) for c in cards) / len(cards), 2) for k in DIMENSIONS}
 
 
 def evaluate_submission(

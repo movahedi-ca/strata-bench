@@ -38,18 +38,54 @@ PERIODS = [
 # Meridian Metro board-wide asking rents (CAD). Cycle shape: post-shock trough,
 # 2023 peak, completion-driven correction, 2026-Q1 trough, 2026-Q2 first rebound.
 METRO_1BED = [
-    1840, 1912, 1998, 2114, 2241, 2379, 2492, 2586, 2648, 2591,
-    2508, 2419, 2346, 2280, 2214, 2161, 2118, 2084, 2052, 2078,
+    1840,
+    1912,
+    1998,
+    2114,
+    2241,
+    2379,
+    2492,
+    2586,
+    2648,
+    2591,
+    2508,
+    2419,
+    2346,
+    2280,
+    2214,
+    2161,
+    2118,
+    2084,
+    2052,
+    2078,
 ]
 METRO_2BED = [
-    2485, 2570, 2684, 2838, 3004, 3186, 3334, 3458, 3542, 3464,
-    3356, 3236, 3138, 3048, 2962, 2890, 2832, 2786, 2744, 2779,
+    2485,
+    2570,
+    2684,
+    2838,
+    3004,
+    3186,
+    3334,
+    3458,
+    3542,
+    3464,
+    3356,
+    3236,
+    3138,
+    3048,
+    2962,
+    2890,
+    2832,
+    2786,
+    2744,
+    2779,
 ]
 
 # Core districts trade at a documented 11.5% premium over metro (gold).
 PREMIUM = 0.115
-CORE_1BED = [int(round(v * (1 + PREMIUM))) for v in METRO_1BED]
-CORE_2BED = [int(round(v * (1 + PREMIUM))) for v in METRO_2BED]
+CORE_1BED = [round(v * (1 + PREMIUM)) for v in METRO_1BED]
+CORE_2BED = [round(v * (1 + PREMIUM)) for v in METRO_2BED]
 
 # UrbanPulse consultancy publishes $/psf on a 720 sq ft average unit, core only,
 # and only even-indexed quarters (Q1/Q3) plus a few extras — simulating sparse
@@ -105,7 +141,6 @@ def write_json(path: Path, obj) -> None:
 
 
 def mreb_release(period: str, i: int) -> str:
-    y, q = period.split("-")
     return f"""MERIDIAN REAL ESTATE BOARD
 Quarterly Rental Market Summary  {period}
 Classification: PUBLIC  |  Geography: MERIDIAN METRO (board-wide)
@@ -122,8 +157,8 @@ Notes
   C-8 Civic Core) are available to subscriber members only.
 - Do not treat these figures as Core District rents. Historically the
   Core transacts at a premium to the metro average.
-- YoY change 1-bed: {('n/a' if i < 4 else f'{(METRO_1BED[i]/METRO_1BED[i-4]-1)*100:+.1f}%')}
-- Macro: {MACRO.get(period, 'Trend continuation.')}
+- YoY change 1-bed: {("n/a" if i < 4 else f"{(METRO_1BED[i] / METRO_1BED[i - 4] - 1) * 100:+.1f}%")}
+- Macro: {MACRO.get(period, "Trend continuation.")}
 
 Source URL (sandbox): sandbox://mreb/{period.lower()}.txt
 Released under MREB research licence for non-commercial evaluation.
@@ -173,12 +208,10 @@ def build_corpus() -> None:
 
     # MREB: complete 20-quarter public metro series.
     for i, period in enumerate(PERIODS):
-        (CORPUS / "mreb" / f"{period}.txt").write_text(
-            mreb_release(period, i), encoding="utf-8"
-        )
+        (CORPUS / "mreb" / f"{period}.txt").write_text(mreb_release(period, i), encoding="utf-8")
 
     # UrbanPulse: only odd-year-style sparse — Q1 and Q3, plus Q4 2023 and Q4 2024.
-    urban_keep = {p for p in PERIODS if p.endswith("Q1") or p.endswith("Q3")}
+    urban_keep = {p for p in PERIODS if p.endswith(("Q1", "Q3"))}
     urban_keep.update({"2023-Q4", "2024-Q4"})
     for i, period in enumerate(PERIODS):
         if period in urban_keep:
@@ -279,11 +312,13 @@ def build_gold() -> dict:
                     "unit": "psf",
                     "geography": "core",
                     "value": PSF_CORE[i],
-                    "source_id": "UrbanPulse" if (
+                    "source_id": "UrbanPulse"
+                    if (
                         PERIODS[i].endswith("Q1")
                         or PERIODS[i].endswith("Q3")
                         or PERIODS[i] in {"2023-Q4", "2024-Q4"}
-                    ) else "gold-derived",
+                    )
+                    else "gold-derived",
                     "status": "reported"
                     if (
                         PERIODS[i].endswith("Q1")
@@ -307,11 +342,7 @@ def build_gold() -> dict:
             for k, v in MILESTONES.items()
         },
         "unpublished_urbanpulse": [
-            p
-            for p in PERIODS
-            if not (
-                p.endswith("Q1") or p.endswith("Q3") or p in {"2023-Q4", "2024-Q4"}
-            )
+            p for p in PERIODS if not (p.endswith(("Q1", "Q3")) or p in {"2023-Q4", "2024-Q4"})
         ],
         "leasewatch_missing": [
             p for p in PERIODS if p in set(PERIODS[1:8]) or p.startswith("2026")
