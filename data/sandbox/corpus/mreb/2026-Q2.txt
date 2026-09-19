@@ -1,0 +1,21 @@
+MERIDIAN REAL ESTATE BOARD
+Quarterly Rental Market Summary  2026-Q2
+Classification: PUBLIC  |  Geography: MERIDIAN METRO (board-wide)
+Coverage: all leased condominium apartments, purpose-built excluded.
+
+Average asking rent, condominium apartments
+  Studio .............. not published this quarter
+  1 bedroom ........... $2,078
+  2 bedroom ........... $2,779
+  3+ bedroom .......... sample insufficient
+
+Notes
+- Figures are board-wide metro averages. District tables (C-1 Harbour,
+  C-8 Civic Core) are available to subscriber members only.
+- Do not treat these figures as Core District rents. Historically the
+  Core transacts at a premium to the metro average.
+- YoY change 1-bed: -3.8%
+- Macro: First QoQ gain in 11 quarters as completions roll off.
+
+Source URL (sandbox): sandbox://mreb/2026-q2.txt
+Released under MREB research licence for non-commercial evaluation.

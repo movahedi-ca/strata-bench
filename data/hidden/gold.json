@@ -1,0 +1,1152 @@
+{
+  "benchmark": "STRATA-Bench",
+  "version": "1.0.0",
+  "track": "sandbox",
+  "market": "Meridian Metro",
+  "currency": "CAD",
+  "periods": [
+    "2021-Q3",
+    "2021-Q4",
+    "2022-Q1",
+    "2022-Q2",
+    "2022-Q3",
+    "2022-Q4",
+    "2023-Q1",
+    "2023-Q2",
+    "2023-Q3",
+    "2023-Q4",
+    "2024-Q1",
+    "2024-Q2",
+    "2024-Q3",
+    "2024-Q4",
+    "2025-Q1",
+    "2025-Q2",
+    "2025-Q3",
+    "2025-Q4",
+    "2026-Q1",
+    "2026-Q2"
+  ],
+  "premium_core_over_metro": 0.115,
+  "avg_sqft": 720,
+  "series": {
+    "metro_1bed": [
+      {
+        "period": "2021-Q3",
+        "unit": "1bed",
+        "geography": "metro",
+        "value": 1840,
+        "currency": "CAD",
+        "yoy_pct": null,
+        "source_id": "MREB-public",
+        "status": "reported",
+        "milestone": "post_shock_base"
+      },
+      {
+        "period": "2021-Q4",
+        "unit": "1bed",
+        "geography": "metro",
+        "value": 1912,
+        "currency": "CAD",
+        "yoy_pct": null,
+        "source_id": "MREB-public",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2022-Q1",
+        "unit": "1bed",
+        "geography": "metro",
+        "value": 1998,
+        "currency": "CAD",
+        "yoy_pct": null,
+        "source_id": "MREB-public",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2022-Q2",
+        "unit": "1bed",
+        "geography": "metro",
+        "value": 2114,
+        "currency": "CAD",
+        "yoy_pct": null,
+        "source_id": "MREB-public",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2022-Q3",
+        "unit": "1bed",
+        "geography": "metro",
+        "value": 2241,
+        "currency": "CAD",
+        "yoy_pct": 21.8,
+        "source_id": "MREB-public",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2022-Q4",
+        "unit": "1bed",
+        "geography": "metro",
+        "value": 2379,
+        "currency": "CAD",
+        "yoy_pct": 24.4,
+        "source_id": "MREB-public",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2023-Q1",
+        "unit": "1bed",
+        "geography": "metro",
+        "value": 2492,
+        "currency": "CAD",
+        "yoy_pct": 24.7,
+        "source_id": "MREB-public",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2023-Q2",
+        "unit": "1bed",
+        "geography": "metro",
+        "value": 2586,
+        "currency": "CAD",
+        "yoy_pct": 22.3,
+        "source_id": "MREB-public",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2023-Q3",
+        "unit": "1bed",
+        "geography": "metro",
+        "value": 2648,
+        "currency": "CAD",
+        "yoy_pct": 18.2,
+        "source_id": "MREB-public",
+        "status": "reported",
+        "milestone": "cycle_peak"
+      },
+      {
+        "period": "2023-Q4",
+        "unit": "1bed",
+        "geography": "metro",
+        "value": 2591,
+        "currency": "CAD",
+        "yoy_pct": 8.9,
+        "source_id": "MREB-public",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2024-Q1",
+        "unit": "1bed",
+        "geography": "metro",
+        "value": 2508,
+        "currency": "CAD",
+        "yoy_pct": 0.6,
+        "source_id": "MREB-public",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2024-Q2",
+        "unit": "1bed",
+        "geography": "metro",
+        "value": 2419,
+        "currency": "CAD",
+        "yoy_pct": -6.5,
+        "source_id": "MREB-public",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2024-Q3",
+        "unit": "1bed",
+        "geography": "metro",
+        "value": 2346,
+        "currency": "CAD",
+        "yoy_pct": -11.4,
+        "source_id": "MREB-public",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2024-Q4",
+        "unit": "1bed",
+        "geography": "metro",
+        "value": 2280,
+        "currency": "CAD",
+        "yoy_pct": -12.0,
+        "source_id": "MREB-public",
+        "status": "reported",
+        "milestone": "mid_correction"
+      },
+      {
+        "period": "2025-Q1",
+        "unit": "1bed",
+        "geography": "metro",
+        "value": 2214,
+        "currency": "CAD",
+        "yoy_pct": -11.7,
+        "source_id": "MREB-public",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2025-Q2",
+        "unit": "1bed",
+        "geography": "metro",
+        "value": 2161,
+        "currency": "CAD",
+        "yoy_pct": -10.7,
+        "source_id": "MREB-public",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2025-Q3",
+        "unit": "1bed",
+        "geography": "metro",
+        "value": 2118,
+        "currency": "CAD",
+        "yoy_pct": -9.7,
+        "source_id": "MREB-public",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2025-Q4",
+        "unit": "1bed",
+        "geography": "metro",
+        "value": 2084,
+        "currency": "CAD",
+        "yoy_pct": -8.6,
+        "source_id": "MREB-public",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2026-Q1",
+        "unit": "1bed",
+        "geography": "metro",
+        "value": 2052,
+        "currency": "CAD",
+        "yoy_pct": -7.3,
+        "source_id": "MREB-public",
+        "status": "reported",
+        "milestone": "cycle_trough"
+      },
+      {
+        "period": "2026-Q2",
+        "unit": "1bed",
+        "geography": "metro",
+        "value": 2078,
+        "currency": "CAD",
+        "yoy_pct": -3.8,
+        "source_id": "MREB-public",
+        "status": "reported",
+        "milestone": "first_rebound"
+      }
+    ],
+    "metro_2bed": [
+      {
+        "period": "2021-Q3",
+        "unit": "2bed",
+        "geography": "metro",
+        "value": 2485,
+        "currency": "CAD",
+        "yoy_pct": null,
+        "source_id": "MREB-public",
+        "status": "reported",
+        "milestone": "post_shock_base"
+      },
+      {
+        "period": "2021-Q4",
+        "unit": "2bed",
+        "geography": "metro",
+        "value": 2570,
+        "currency": "CAD",
+        "yoy_pct": null,
+        "source_id": "MREB-public",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2022-Q1",
+        "unit": "2bed",
+        "geography": "metro",
+        "value": 2684,
+        "currency": "CAD",
+        "yoy_pct": null,
+        "source_id": "MREB-public",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2022-Q2",
+        "unit": "2bed",
+        "geography": "metro",
+        "value": 2838,
+        "currency": "CAD",
+        "yoy_pct": null,
+        "source_id": "MREB-public",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2022-Q3",
+        "unit": "2bed",
+        "geography": "metro",
+        "value": 3004,
+        "currency": "CAD",
+        "yoy_pct": 20.9,
+        "source_id": "MREB-public",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2022-Q4",
+        "unit": "2bed",
+        "geography": "metro",
+        "value": 3186,
+        "currency": "CAD",
+        "yoy_pct": 24.0,
+        "source_id": "MREB-public",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2023-Q1",
+        "unit": "2bed",
+        "geography": "metro",
+        "value": 3334,
+        "currency": "CAD",
+        "yoy_pct": 24.2,
+        "source_id": "MREB-public",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2023-Q2",
+        "unit": "2bed",
+        "geography": "metro",
+        "value": 3458,
+        "currency": "CAD",
+        "yoy_pct": 21.8,
+        "source_id": "MREB-public",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2023-Q3",
+        "unit": "2bed",
+        "geography": "metro",
+        "value": 3542,
+        "currency": "CAD",
+        "yoy_pct": 17.9,
+        "source_id": "MREB-public",
+        "status": "reported",
+        "milestone": "cycle_peak"
+      },
+      {
+        "period": "2023-Q4",
+        "unit": "2bed",
+        "geography": "metro",
+        "value": 3464,
+        "currency": "CAD",
+        "yoy_pct": 8.7,
+        "source_id": "MREB-public",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2024-Q1",
+        "unit": "2bed",
+        "geography": "metro",
+        "value": 3356,
+        "currency": "CAD",
+        "yoy_pct": 0.7,
+        "source_id": "MREB-public",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2024-Q2",
+        "unit": "2bed",
+        "geography": "metro",
+        "value": 3236,
+        "currency": "CAD",
+        "yoy_pct": -6.4,
+        "source_id": "MREB-public",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2024-Q3",
+        "unit": "2bed",
+        "geography": "metro",
+        "value": 3138,
+        "currency": "CAD",
+        "yoy_pct": -11.4,
+        "source_id": "MREB-public",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2024-Q4",
+        "unit": "2bed",
+        "geography": "metro",
+        "value": 3048,
+        "currency": "CAD",
+        "yoy_pct": -12.0,
+        "source_id": "MREB-public",
+        "status": "reported",
+        "milestone": "mid_correction"
+      },
+      {
+        "period": "2025-Q1",
+        "unit": "2bed",
+        "geography": "metro",
+        "value": 2962,
+        "currency": "CAD",
+        "yoy_pct": -11.7,
+        "source_id": "MREB-public",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2025-Q2",
+        "unit": "2bed",
+        "geography": "metro",
+        "value": 2890,
+        "currency": "CAD",
+        "yoy_pct": -10.7,
+        "source_id": "MREB-public",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2025-Q3",
+        "unit": "2bed",
+        "geography": "metro",
+        "value": 2832,
+        "currency": "CAD",
+        "yoy_pct": -9.8,
+        "source_id": "MREB-public",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2025-Q4",
+        "unit": "2bed",
+        "geography": "metro",
+        "value": 2786,
+        "currency": "CAD",
+        "yoy_pct": -8.6,
+        "source_id": "MREB-public",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2026-Q1",
+        "unit": "2bed",
+        "geography": "metro",
+        "value": 2744,
+        "currency": "CAD",
+        "yoy_pct": -7.4,
+        "source_id": "MREB-public",
+        "status": "reported",
+        "milestone": "cycle_trough"
+      },
+      {
+        "period": "2026-Q2",
+        "unit": "2bed",
+        "geography": "metro",
+        "value": 2779,
+        "currency": "CAD",
+        "yoy_pct": -3.8,
+        "source_id": "MREB-public",
+        "status": "reported",
+        "milestone": "first_rebound"
+      }
+    ],
+    "core_1bed": [
+      {
+        "period": "2021-Q3",
+        "unit": "1bed",
+        "geography": "core",
+        "value": 2052,
+        "currency": "CAD",
+        "yoy_pct": null,
+        "source_id": "gold-derived",
+        "status": "reported",
+        "milestone": "post_shock_base"
+      },
+      {
+        "period": "2021-Q4",
+        "unit": "1bed",
+        "geography": "core",
+        "value": 2132,
+        "currency": "CAD",
+        "yoy_pct": null,
+        "source_id": "gold-derived",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2022-Q1",
+        "unit": "1bed",
+        "geography": "core",
+        "value": 2228,
+        "currency": "CAD",
+        "yoy_pct": null,
+        "source_id": "gold-derived",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2022-Q2",
+        "unit": "1bed",
+        "geography": "core",
+        "value": 2357,
+        "currency": "CAD",
+        "yoy_pct": null,
+        "source_id": "gold-derived",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2022-Q3",
+        "unit": "1bed",
+        "geography": "core",
+        "value": 2499,
+        "currency": "CAD",
+        "yoy_pct": 21.8,
+        "source_id": "gold-derived",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2022-Q4",
+        "unit": "1bed",
+        "geography": "core",
+        "value": 2653,
+        "currency": "CAD",
+        "yoy_pct": 24.4,
+        "source_id": "gold-derived",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2023-Q1",
+        "unit": "1bed",
+        "geography": "core",
+        "value": 2779,
+        "currency": "CAD",
+        "yoy_pct": 24.7,
+        "source_id": "gold-derived",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2023-Q2",
+        "unit": "1bed",
+        "geography": "core",
+        "value": 2883,
+        "currency": "CAD",
+        "yoy_pct": 22.3,
+        "source_id": "gold-derived",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2023-Q3",
+        "unit": "1bed",
+        "geography": "core",
+        "value": 2953,
+        "currency": "CAD",
+        "yoy_pct": 18.2,
+        "source_id": "gold-derived",
+        "status": "reported",
+        "milestone": "cycle_peak"
+      },
+      {
+        "period": "2023-Q4",
+        "unit": "1bed",
+        "geography": "core",
+        "value": 2889,
+        "currency": "CAD",
+        "yoy_pct": 8.9,
+        "source_id": "gold-derived",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2024-Q1",
+        "unit": "1bed",
+        "geography": "core",
+        "value": 2796,
+        "currency": "CAD",
+        "yoy_pct": 0.6,
+        "source_id": "gold-derived",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2024-Q2",
+        "unit": "1bed",
+        "geography": "core",
+        "value": 2697,
+        "currency": "CAD",
+        "yoy_pct": -6.5,
+        "source_id": "gold-derived",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2024-Q3",
+        "unit": "1bed",
+        "geography": "core",
+        "value": 2616,
+        "currency": "CAD",
+        "yoy_pct": -11.4,
+        "source_id": "gold-derived",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2024-Q4",
+        "unit": "1bed",
+        "geography": "core",
+        "value": 2542,
+        "currency": "CAD",
+        "yoy_pct": -12.0,
+        "source_id": "gold-derived",
+        "status": "reported",
+        "milestone": "mid_correction"
+      },
+      {
+        "period": "2025-Q1",
+        "unit": "1bed",
+        "geography": "core",
+        "value": 2469,
+        "currency": "CAD",
+        "yoy_pct": -11.7,
+        "source_id": "gold-derived",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2025-Q2",
+        "unit": "1bed",
+        "geography": "core",
+        "value": 2410,
+        "currency": "CAD",
+        "yoy_pct": -10.6,
+        "source_id": "gold-derived",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2025-Q3",
+        "unit": "1bed",
+        "geography": "core",
+        "value": 2362,
+        "currency": "CAD",
+        "yoy_pct": -9.7,
+        "source_id": "gold-derived",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2025-Q4",
+        "unit": "1bed",
+        "geography": "core",
+        "value": 2324,
+        "currency": "CAD",
+        "yoy_pct": -8.6,
+        "source_id": "gold-derived",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2026-Q1",
+        "unit": "1bed",
+        "geography": "core",
+        "value": 2288,
+        "currency": "CAD",
+        "yoy_pct": -7.3,
+        "source_id": "gold-derived",
+        "status": "reported",
+        "milestone": "cycle_trough"
+      },
+      {
+        "period": "2026-Q2",
+        "unit": "1bed",
+        "geography": "core",
+        "value": 2317,
+        "currency": "CAD",
+        "yoy_pct": -3.9,
+        "source_id": "gold-derived",
+        "status": "reported",
+        "milestone": "first_rebound"
+      }
+    ],
+    "core_2bed": [
+      {
+        "period": "2021-Q3",
+        "unit": "2bed",
+        "geography": "core",
+        "value": 2771,
+        "currency": "CAD",
+        "yoy_pct": null,
+        "source_id": "gold-derived",
+        "status": "reported",
+        "milestone": "post_shock_base"
+      },
+      {
+        "period": "2021-Q4",
+        "unit": "2bed",
+        "geography": "core",
+        "value": 2866,
+        "currency": "CAD",
+        "yoy_pct": null,
+        "source_id": "gold-derived",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2022-Q1",
+        "unit": "2bed",
+        "geography": "core",
+        "value": 2993,
+        "currency": "CAD",
+        "yoy_pct": null,
+        "source_id": "gold-derived",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2022-Q2",
+        "unit": "2bed",
+        "geography": "core",
+        "value": 3164,
+        "currency": "CAD",
+        "yoy_pct": null,
+        "source_id": "gold-derived",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2022-Q3",
+        "unit": "2bed",
+        "geography": "core",
+        "value": 3349,
+        "currency": "CAD",
+        "yoy_pct": 20.9,
+        "source_id": "gold-derived",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2022-Q4",
+        "unit": "2bed",
+        "geography": "core",
+        "value": 3552,
+        "currency": "CAD",
+        "yoy_pct": 23.9,
+        "source_id": "gold-derived",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2023-Q1",
+        "unit": "2bed",
+        "geography": "core",
+        "value": 3717,
+        "currency": "CAD",
+        "yoy_pct": 24.2,
+        "source_id": "gold-derived",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2023-Q2",
+        "unit": "2bed",
+        "geography": "core",
+        "value": 3856,
+        "currency": "CAD",
+        "yoy_pct": 21.9,
+        "source_id": "gold-derived",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2023-Q3",
+        "unit": "2bed",
+        "geography": "core",
+        "value": 3949,
+        "currency": "CAD",
+        "yoy_pct": 17.9,
+        "source_id": "gold-derived",
+        "status": "reported",
+        "milestone": "cycle_peak"
+      },
+      {
+        "period": "2023-Q4",
+        "unit": "2bed",
+        "geography": "core",
+        "value": 3862,
+        "currency": "CAD",
+        "yoy_pct": 8.7,
+        "source_id": "gold-derived",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2024-Q1",
+        "unit": "2bed",
+        "geography": "core",
+        "value": 3742,
+        "currency": "CAD",
+        "yoy_pct": 0.7,
+        "source_id": "gold-derived",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2024-Q2",
+        "unit": "2bed",
+        "geography": "core",
+        "value": 3608,
+        "currency": "CAD",
+        "yoy_pct": -6.4,
+        "source_id": "gold-derived",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2024-Q3",
+        "unit": "2bed",
+        "geography": "core",
+        "value": 3499,
+        "currency": "CAD",
+        "yoy_pct": -11.4,
+        "source_id": "gold-derived",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2024-Q4",
+        "unit": "2bed",
+        "geography": "core",
+        "value": 3399,
+        "currency": "CAD",
+        "yoy_pct": -12.0,
+        "source_id": "gold-derived",
+        "status": "reported",
+        "milestone": "mid_correction"
+      },
+      {
+        "period": "2025-Q1",
+        "unit": "2bed",
+        "geography": "core",
+        "value": 3303,
+        "currency": "CAD",
+        "yoy_pct": -11.7,
+        "source_id": "gold-derived",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2025-Q2",
+        "unit": "2bed",
+        "geography": "core",
+        "value": 3222,
+        "currency": "CAD",
+        "yoy_pct": -10.7,
+        "source_id": "gold-derived",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2025-Q3",
+        "unit": "2bed",
+        "geography": "core",
+        "value": 3158,
+        "currency": "CAD",
+        "yoy_pct": -9.7,
+        "source_id": "gold-derived",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2025-Q4",
+        "unit": "2bed",
+        "geography": "core",
+        "value": 3106,
+        "currency": "CAD",
+        "yoy_pct": -8.6,
+        "source_id": "gold-derived",
+        "status": "reported",
+        "milestone": null
+      },
+      {
+        "period": "2026-Q1",
+        "unit": "2bed",
+        "geography": "core",
+        "value": 3060,
+        "currency": "CAD",
+        "yoy_pct": -7.4,
+        "source_id": "gold-derived",
+        "status": "reported",
+        "milestone": "cycle_trough"
+      },
+      {
+        "period": "2026-Q2",
+        "unit": "2bed",
+        "geography": "core",
+        "value": 3099,
+        "currency": "CAD",
+        "yoy_pct": -3.8,
+        "source_id": "gold-derived",
+        "status": "reported",
+        "milestone": "first_rebound"
+      }
+    ],
+    "core_psf": [
+      {
+        "period": "2021-Q3",
+        "unit": "psf",
+        "geography": "core",
+        "value": 2.85,
+        "source_id": "UrbanPulse",
+        "status": "reported"
+      },
+      {
+        "period": "2021-Q4",
+        "unit": "psf",
+        "geography": "core",
+        "value": 2.96,
+        "source_id": "gold-derived",
+        "status": "unpublished"
+      },
+      {
+        "period": "2022-Q1",
+        "unit": "psf",
+        "geography": "core",
+        "value": 3.09,
+        "source_id": "UrbanPulse",
+        "status": "reported"
+      },
+      {
+        "period": "2022-Q2",
+        "unit": "psf",
+        "geography": "core",
+        "value": 3.27,
+        "source_id": "gold-derived",
+        "status": "unpublished"
+      },
+      {
+        "period": "2022-Q3",
+        "unit": "psf",
+        "geography": "core",
+        "value": 3.47,
+        "source_id": "UrbanPulse",
+        "status": "reported"
+      },
+      {
+        "period": "2022-Q4",
+        "unit": "psf",
+        "geography": "core",
+        "value": 3.68,
+        "source_id": "gold-derived",
+        "status": "unpublished"
+      },
+      {
+        "period": "2023-Q1",
+        "unit": "psf",
+        "geography": "core",
+        "value": 3.86,
+        "source_id": "UrbanPulse",
+        "status": "reported"
+      },
+      {
+        "period": "2023-Q2",
+        "unit": "psf",
+        "geography": "core",
+        "value": 4.0,
+        "source_id": "gold-derived",
+        "status": "unpublished"
+      },
+      {
+        "period": "2023-Q3",
+        "unit": "psf",
+        "geography": "core",
+        "value": 4.1,
+        "source_id": "UrbanPulse",
+        "status": "reported"
+      },
+      {
+        "period": "2023-Q4",
+        "unit": "psf",
+        "geography": "core",
+        "value": 4.01,
+        "source_id": "UrbanPulse",
+        "status": "reported"
+      },
+      {
+        "period": "2024-Q1",
+        "unit": "psf",
+        "geography": "core",
+        "value": 3.88,
+        "source_id": "UrbanPulse",
+        "status": "reported"
+      },
+      {
+        "period": "2024-Q2",
+        "unit": "psf",
+        "geography": "core",
+        "value": 3.75,
+        "source_id": "gold-derived",
+        "status": "unpublished"
+      },
+      {
+        "period": "2024-Q3",
+        "unit": "psf",
+        "geography": "core",
+        "value": 3.63,
+        "source_id": "UrbanPulse",
+        "status": "reported"
+      },
+      {
+        "period": "2024-Q4",
+        "unit": "psf",
+        "geography": "core",
+        "value": 3.53,
+        "source_id": "UrbanPulse",
+        "status": "reported"
+      },
+      {
+        "period": "2025-Q1",
+        "unit": "psf",
+        "geography": "core",
+        "value": 3.43,
+        "source_id": "UrbanPulse",
+        "status": "reported"
+      },
+      {
+        "period": "2025-Q2",
+        "unit": "psf",
+        "geography": "core",
+        "value": 3.35,
+        "source_id": "gold-derived",
+        "status": "unpublished"
+      },
+      {
+        "period": "2025-Q3",
+        "unit": "psf",
+        "geography": "core",
+        "value": 3.28,
+        "source_id": "UrbanPulse",
+        "status": "reported"
+      },
+      {
+        "period": "2025-Q4",
+        "unit": "psf",
+        "geography": "core",
+        "value": 3.23,
+        "source_id": "gold-derived",
+        "status": "unpublished"
+      },
+      {
+        "period": "2026-Q1",
+        "unit": "psf",
+        "geography": "core",
+        "value": 3.18,
+        "source_id": "UrbanPulse",
+        "status": "reported"
+      },
+      {
+        "period": "2026-Q2",
+        "unit": "psf",
+        "geography": "core",
+        "value": 3.22,
+        "source_id": "gold-derived",
+        "status": "unpublished"
+      }
+    ]
+  },
+  "milestones": {
+    "2021-Q3": {
+      "period": "2021-Q3",
+      "metro_1bed": 1840,
+      "metro_2bed": 2485,
+      "core_1bed": 2052,
+      "core_2bed": 2771,
+      "label": "post_shock_base"
+    },
+    "2023-Q3": {
+      "period": "2023-Q3",
+      "metro_1bed": 2648,
+      "metro_2bed": 3542,
+      "core_1bed": 2953,
+      "core_2bed": 3949,
+      "label": "cycle_peak"
+    },
+    "2024-Q4": {
+      "period": "2024-Q4",
+      "metro_1bed": 2280,
+      "metro_2bed": 3048,
+      "core_1bed": 2542,
+      "core_2bed": 3399,
+      "label": "mid_correction"
+    },
+    "2026-Q1": {
+      "period": "2026-Q1",
+      "metro_1bed": 2052,
+      "metro_2bed": 2744,
+      "core_1bed": 2288,
+      "core_2bed": 3060,
+      "label": "cycle_trough"
+    },
+    "2026-Q2": {
+      "period": "2026-Q2",
+      "metro_1bed": 2078,
+      "metro_2bed": 2779,
+      "core_1bed": 2317,
+      "core_2bed": 3099,
+      "label": "first_rebound"
+    }
+  },
+  "unpublished_urbanpulse": [
+    "2021-Q4",
+    "2022-Q2",
+    "2022-Q4",
+    "2023-Q2",
+    "2024-Q2",
+    "2025-Q2",
+    "2025-Q4",
+    "2026-Q2"
+  ],
+  "leasewatch_missing": [
+    "2021-Q4",
+    "2022-Q1",
+    "2022-Q2",
+    "2022-Q3",
+    "2022-Q4",
+    "2023-Q1",
+    "2023-Q2",
+    "2026-Q1",
+    "2026-Q2"
+  ],
+  "protocol_notes": [
+    "Core series is metro * 1.115, rounded to nearest dollar. Agents that invent a different premium without disclosure fail SRC.",
+    "MREB never publishes C-1/C-8 in this corpus. Relabeling metro as core is a Geographic Masking hard fail.",
+    "UrbanPulse unpublished quarters must be marked interpolated or omitted \u2014 never presented as extracts.",
+    "LeaseWatch values are rounded visual estimates and geographically ambiguous."
+  ]
+}

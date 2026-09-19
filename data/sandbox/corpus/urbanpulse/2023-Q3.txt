@@ -1,0 +1,15 @@
+URBANPULSE INC.  |  Confidential to subscribers
+2023-Q3  Purpose-Built & Condo Rental Monitor  —  CORE DISTRICTS ONLY
+
+Effective rent / sq ft (avg 720 sf suite):  $4.10 psf
+Implied average monthly rent (720 sf):      $2,953
+Geography: Meridian Core Districts (C-1 + C-8)
+Sample: 1,140 leased suites
+
+Methodology
+UrbanPulse does not publish metro-wide averages. The series is a Core
+Districts (C-1 Harbour + C-8 Civic Core) blended index. Do not splice
+this series onto MREB metro figures without a documented premium.
+
+Cadence: this firm publishes Q1 and Q3 in full; Q2/Q4 notes are brief
+and sometimes skipped. Missing a quarter is not a zero — it is unpublished.

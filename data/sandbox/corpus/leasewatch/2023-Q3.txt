@@ -1,0 +1,6 @@
+LeaseWatch national snapshot — 2023-Q3
+"Downtown Meridian" 1-bedroom typical asking rent: ~$2,950
+(visual readout from in-app chart; not a board extract)
+
+Caveat from LeaseWatch: chart axis is categorical by available months,
+not a continuous calendar. Gaps are collapsed.

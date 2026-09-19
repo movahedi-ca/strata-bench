@@ -1,0 +1,26 @@
+{
+  "sandbox_root": "data/sandbox/corpus",
+  "sources": [
+    {
+      "id": "MREB-public",
+      "name": "Meridian Real Estate Board public quarterly summaries",
+      "geography": "metro",
+      "n_files": 20,
+      "unit": "CAD asking rent"
+    },
+    {
+      "id": "UrbanPulse",
+      "name": "UrbanPulse Inc. Core Districts rental monitor",
+      "geography": "core",
+      "n_files": 12,
+      "unit": "CAD per sq ft"
+    },
+    {
+      "id": "LeaseWatch",
+      "name": "LeaseWatch national snapshot (visual)",
+      "geography": "ambiguous",
+      "n_files": 9,
+      "unit": "rounded CAD 1-bed"
+    }
+  ]
+}

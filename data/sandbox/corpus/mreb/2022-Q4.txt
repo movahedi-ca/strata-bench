@@ -1,0 +1,21 @@
+MERIDIAN REAL ESTATE BOARD
+Quarterly Rental Market Summary  2022-Q4
+Classification: PUBLIC  |  Geography: MERIDIAN METRO (board-wide)
+Coverage: all leased condominium apartments, purpose-built excluded.
+
+Average asking rent, condominium apartments
+  Studio .............. not published this quarter
+  1 bedroom ........... $2,379
+  2 bedroom ........... $3,186
+  3+ bedroom .......... sample insufficient
+
+Notes
+- Figures are board-wide metro averages. District tables (C-1 Harbour,
+  C-8 Civic Core) are available to subscriber members only.
+- Do not treat these figures as Core District rents. Historically the
+  Core transacts at a premium to the metro average.
+- YoY change 1-bed: +24.4%
+- Macro: Rate path steepens; investors bid up leased product.
+
+Source URL (sandbox): sandbox://mreb/2022-q4.txt
+Released under MREB research licence for non-commercial evaluation.

@@ -1,0 +1,17 @@
+ASCII CHART (LeaseWatch marketing page)
+Asking rent (1-bed, "Downtown")
+
+  2800 |                        *  *
+  2600 |                   *  *       *
+  2400 |              *
+  2200 |         *
+  2000 |    *
+  1800 | *
+       +--+--+--+--+--+--+--+--+--+--+
+         Q3  Q1  Q3  Q1  Q3  Q1  Q3  Q1
+         21  22  22  23  23  24  24  25
+
+TRAP: the x-axis is not uniform. Q4 2021 through Q2 2023 are omitted.
+Plotting these labels as equally spaced categorical ticks fabricates
+slope. Protocol §4.3 (Non-Uniform Temporal Axis) scores this as a hard
+penalty unless the agent reconstructs a datetime axis with visible gaps.

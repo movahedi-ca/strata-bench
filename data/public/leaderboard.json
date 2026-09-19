@@ -1,0 +1,80 @@
+{
+  "benchmark": "STRATA-Bench",
+  "version": "1.0.0",
+  "track": "sandbox",
+  "updated": "2026-09-18",
+  "entries": [
+    {
+      "rank": 1,
+      "model": "reference/econometrician",
+      "scaffold": "protocol-fixture+premium",
+      "archetype": "synthetic_econometrician",
+      "track": "sandbox",
+      "headline": 8.48,
+      "dimensions": {
+        "temporal_coverage": 7.42,
+        "source_grounding": 9.42,
+        "spatial_precision": 9.58,
+        "statistical_rigor": 8.69,
+        "visual_integrity": 9.31,
+        "macro_narrative": 6.29
+      },
+      "n_hard_fails": 0,
+      "hard_fails": [],
+      "n_answered": 36,
+      "n_tasks": 36,
+      "fixture": "econometrician.json",
+      "notes": "In-tree reference agent. Not a vendor claim."
+    },
+    {
+      "rank": 2,
+      "model": "reference/literalist",
+      "scaffold": "protocol-fixture",
+      "archetype": "empirical_literalist",
+      "track": "sandbox",
+      "headline": 8.38,
+      "dimensions": {
+        "temporal_coverage": 7.42,
+        "source_grounding": 9.42,
+        "spatial_precision": 9.58,
+        "statistical_rigor": 8.11,
+        "visual_integrity": 9.25,
+        "macro_narrative": 6.22
+      },
+      "n_hard_fails": 0,
+      "hard_fails": [],
+      "n_answered": 36,
+      "n_tasks": 36,
+      "fixture": "literalist.json",
+      "notes": "In-tree reference agent. Not a vendor claim."
+    },
+    {
+      "rank": 3,
+      "model": "reference/extractor",
+      "scaffold": "ocr-chart-fixture",
+      "archetype": "fragmented_extractor",
+      "track": "sandbox",
+      "headline": 3.85,
+      "dimensions": {
+        "temporal_coverage": 4.53,
+        "source_grounding": 8.67,
+        "spatial_precision": 8.58,
+        "statistical_rigor": 4.67,
+        "visual_integrity": 2.22,
+        "macro_narrative": 4.46
+      },
+      "n_hard_fails": 46,
+      "hard_fails": [
+        "CATEGORICAL_GAP",
+        "GEO_MASK",
+        "OCR_LAUNDER",
+        "TRUNCATE_2026",
+        "UNIT_COLLAPSE"
+      ],
+      "n_answered": 36,
+      "n_tasks": 36,
+      "fixture": "extractor.json",
+      "notes": "In-tree reference agent. Not a vendor claim."
+    }
+  ]
+}
