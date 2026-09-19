@@ -1,5 +1,7 @@
 ---
 layout: home
+title: "STRATA-Bench: a benchmark for AI agents on fragmented spatial-temporal market intelligence"
+description: "STRATA-Bench scores whether AI agents disclose, tag, refuse, or model uncertainty across 36 tasks — instead of hallucinating downtown numbers or plotting gaps as data."
 ---
 
 # STRATA-Bench documentation

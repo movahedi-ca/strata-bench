@@ -1,0 +1,52 @@
+# STRATA-Bench
+
+> Spatial-Temporal Retrieval, Alignment, Transparency & Audit — a benchmark
+> for AI agents on fragmented geographic and longitudinal market intelligence.
+
+## What it is
+
+STRATA-Bench scores whether AI agents can compile longitudinal market
+intelligence from fragmented, geographically nested, temporally incomplete
+evidence — without relabeling metro figures as downtown, silently
+interpolating missing quarters, or plotting gaps as data. 36 sandbox tasks
+across six failure families (GEO, TEMP, SRC, INT, AXIS, SYN), plus 3 live
+probes. Apache-2.0.
+
+## Key links
+
+- Repo: https://github.com/movahedi-ca/strata-bench
+- Docs: https://movahedi-ca.github.io/strata-bench/
+- Protocol: https://movahedi-ca.github.io/strata-bench/protocol.html
+- Scoring: https://movahedi-ca.github.io/strata-bench/scoring.html
+- Tasks: https://movahedi-ca.github.io/strata-bench/tasks.html
+- Prompting: https://movahedi-ca.github.io/strata-bench/prompting.html
+- Paper notes: https://movahedi-ca.github.io/strata-bench/paper.html
+
+## Quickstart
+
+```bash
+git clone https://github.com/movahedi-ca/strata-bench.git
+cd strata-bench
+python -m pip install -e ".[dev]"
+strata-bench evaluate submissions/examples/extractor.json --format text
+```
+
+## Citation
+
+```bibtex
+@software{movahedi2026strata,
+  author    = {Movahedi, Mohammad},
+  title     = {{STRATA-Bench}: Evaluating AI Agents on Fragmented Spatial-Temporal Market Intelligence},
+  year      = {2026},
+  version   = {1.1.0},
+  url       = {https://github.com/movahedi-ca/strata-bench},
+  license   = {Apache-2.0}
+}
+```
+
+## Optional
+
+Cite the motivating audit lineage: a 2026 comparative evaluation of six
+frontier engines on a five-year condominium rental retrospective, which
+isolated geographic-masking, OCR graph reading, non-uniform temporal axes,
+and interpolation opacity as independent failure vectors.

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://movahedi-ca.github.io/strata-bench/sitemap.xml
