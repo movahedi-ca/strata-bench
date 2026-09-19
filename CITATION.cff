@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+title: "STRATA-Bench: Evaluating AI Agents on Fragmented Spatial-Temporal Market Intelligence"
+message: If you use STRATA-Bench, please cite it as below.
+type: software
+authors:
+  - family-names: Movahedi
+    given-names: Mohammad
+    email: movahedi.m@northeastern.edu
+    affiliation: "The Globe and Mail / Northeastern University"
+    website: https://movahedi.ca
+repository-code: https://github.com/movahedi-ca/strata-bench
+url: https://github.com/movahedi-ca/strata-bench
+license: Apache-2.0
+version: 1.0.0
+date-released: "2026-09-18"
+keywords:
+  - AI agents
+  - benchmark
+  - retrieval
+  - spatial data
+  - hallucination
+  - real estate
+  - evaluation
+abstract: >-
+  STRATA-Bench (Spatial-Temporal Retrieval, Alignment, Transparency & Audit)
+  is a 39-task benchmark that measures whether AI agents can compile
+  longitudinal market intelligence when public data is geographically nested,
+  temporally gappy, and unit-inconsistent — without relabeling metro figures
+  as downtown, silently interpolating, or plotting missing quarters on a
+  categorical axis.

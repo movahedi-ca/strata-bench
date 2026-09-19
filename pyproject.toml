@@ -1,0 +1,73 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "strata-bench"
+version = "1.0.0"
+description = "STRATA-Bench: Spatial-Temporal Retrieval, Alignment, Transparency & Audit — a benchmark for AI agents on fragmented geographic and longitudinal market intelligence."
+readme = "README.md"
+license = { text = "Apache-2.0" }
+requires-python = ">=3.10"
+authors = [
+  { name = "Mohammad Movahedi", email = "movahedi.m@northeastern.edu" },
+]
+keywords = [
+  "benchmark",
+  "llm",
+  "agents",
+  "evaluation",
+  "spatial-data",
+  "real-estate",
+  "hallucination",
+  "retrieval",
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+  "pydantic>=2.6",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+
+[project.urls]
+Homepage = "https://github.com/movahedi-ca/strata-bench"
+Documentation = "https://github.com/movahedi-ca/strata-bench/tree/main/docs"
+Issues = "https://github.com/movahedi-ca/strata-bench/issues"
+Source = "https://github.com/movahedi-ca/strata-bench"
+
+[project.scripts]
+strata-bench = "strata_bench.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["strata_bench"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+  "strata_bench",
+  "data",
+  "docs",
+  "tests",
+  "submissions",
+  "scripts",
+  "README.md",
+  "LICENSE",
+  "CITATION.cff",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
